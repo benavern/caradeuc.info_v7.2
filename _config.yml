@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
+title: Benjamin Caradeuc
+subtitle: Ingénieur & lead développeur web
+description: Benjamin Caradeuc | Ingénieur & lead développeur web
+keywords: dévelopeur, web, ingénieur, web, projects
+author: Benjamin Caradeuc <benjamin@caradeuc.info>
+language: fr
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://caradeuc.info
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,7 +73,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: zezen
+# theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

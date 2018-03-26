@@ -1,0 +1,14 @@
+<header>
+    <ul>
+        <li>
+            <a href="<%- url_for('') %>">
+                Accueil
+            </a>
+        </li>
+        <% site.pages.forEach(function (page) { %>
+            <li>
+                <a href="<%- url_for(page.path) %>"><%= page.title %></a>
+            </li>
+        <% }) %>
+    </ul>
+</header>
