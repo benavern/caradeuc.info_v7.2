@@ -3,15 +3,20 @@
 $base-font-family: "Raleway", sans-serif
 $indent-amount: 2em
 $base-font-size: 16px
+$base-line-height: 26px
 
 
 //// my variables
 
 // Colors
 $black: #000
-$gray-dark: lighten($black, 30%)
-$gray: lighten($black, 60%)
-$gray-light: lighten($black, 90%)
+
+$gray-darker: lighten($black, 3%)
+$gray-dark: lighten($black, 25%)
+$gray: lighten($black, 50%)
+$gray-light: lighten($black, 75%)
+$gray-lighter: lighten($black, 97%)
+
 $white: #fff
 
 $green: #16a085
@@ -21,12 +26,11 @@ $yellow: #f1c40f
 $orange: #e67e22
 $red: #c0392b
 
+$colors: ('black': $black, 'gray-darker': $gray-darker, 'gray-dark': $gray-dark, 'gray': $gray, 'gray-lighter': $gray-lighter, 'gray-light': $gray-light, 'white': $white, 'green': $green, 'blue': $blue, 'violet': $violet, 'yellow': $yellow, 'orange': $orange, 'red': $red)
+
 // Fonts
 $title-font: "Jaldi", sans-serif
 $text-font: "Raleway", serif
-
-// Sizes
-$container-width: 768px
 
 // Breakpoints
 $xx-large: 1440px
@@ -35,6 +39,11 @@ $large: 1024px
 $medium: 768px
 $small: 480px
 $x-small: 320px
+
+$breakpoints: 'xs' $x-small, 's' $small, 'm' $medium, 'l' $large, 'xl' $x-large, 'xxl' $xx-large
+
+// Sizes
+$container-width: $medium
 
 // Grid
 $gutter: .5rem

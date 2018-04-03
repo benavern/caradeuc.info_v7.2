@@ -1,0 +1,38 @@
+// colors
+@each $color-key, $color-val in $colors
+  &.bg-#{$color-key}
+    background-color: $color-val
+  &.color-#{$color-key}
+    color: $color-val
+
+// fonts family
+.font-title
+  font-family: $title-font
+.font-text
+  font-family: $text-font
+
+// font weight
+.font-light
+  font-weight: lighter
+.font-normal
+  font-weight: normal
+.font-bold
+  font-weight: bold
+
+
+// text align
+.text-left
+  text-align: left
+.text-center
+  text-align: center
+.text-right
+  text-align: right
+.text-justify
+  text-align: justify
+
+// utils
+.container
+  width: 100%
+  max-width: $container-width
+  margin: 0 auto
+  padding: 1rem
