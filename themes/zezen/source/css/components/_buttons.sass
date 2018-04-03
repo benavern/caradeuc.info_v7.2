@@ -1,0 +1,17 @@
+button.btn,
+a.btn
+  border: none
+  display: inline-block
+  padding: .75em 1.5em .55em
+  font-variant: small-caps
+  font-weight: bold
+  cursor: pointer
+
+  &:not(.btn-link)
+    border-radius: .5em
+    text-decoration: none
+    box-shadow: .25em .5em 2em rgba($black, .2)
+    transition: box-shadow .3s
+
+    &:hover
+      box-shadow: 0 .5em 2em rgba($black, .3)

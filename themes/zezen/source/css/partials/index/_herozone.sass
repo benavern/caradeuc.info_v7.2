@@ -1,0 +1,49 @@
+#herozone
+  padding: 8rem 0 2rem
+  background-image: linear-gradient(60deg, lighten($gray-lighter, 2%), darken($gray-lighter, 2%))
+  overflow: hidden // because of the avatar shadow
+
+  @media (min-width: $medium)
+    h1
+      font-size: 3rem
+
+  .avatar-container
+    position: relative
+    border: .75rem solid $primary
+    border-radius: 50%
+    max-width: 300px
+    margin: 2.5rem auto
+    text-align: center
+    box-shadow: 0 0 10rem rgba($black, .5)
+
+    img
+      display: block
+      width: 100%
+      border-radius: 50%
+      border: .25rem solid $white
+      transition: transform .5s cubic-bezier(0.7, -0.7, 0.5, 1.5)
+
+    .avatar-badge
+      z-index: 1
+      background-color: $gray-dark
+      color: $white
+      position: absolute
+      top: 0
+      right: 0
+      font-size: 1.25rem
+      width: 3em
+      height: 3em
+      line-height: 3em
+      text-align: center
+      font-weight: bold
+      border-radius: 50%
+      box-shadow: 0 0 .5rem rgba($black, .5)
+      transition: opacity .2s .3s
+
+    &:hover
+      img
+        transform: rotate(15deg) scale(1.5)
+
+      .avatar-badge
+        opacity: 0
+
