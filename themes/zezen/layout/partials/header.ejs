@@ -1,14 +1,21 @@
-<header>
-    <ul>
-        <li>
-            <a href="<%- url_for('') %>">
-                Accueil
+<header id="header">
+  <div class="container">
+    <div class="grid">
+      <div class="grid-item xs-4">
+        <a href="<%- url_for('/') %>"  class="btn btn-link">
+          Benjamin CARADEUC
+        </a>
+      </div>
+
+      <div class="grid-item xs-3-4">
+        <nav class="text-right">
+          <% site.pages.forEach(function (page) { %>
+            <a href="<%- url_for(page.path) %>" class="btn btn-link">
+              <%= page.title %>
             </a>
-        </li>
-        <% site.pages.forEach(function (page) { %>
-            <li>
-                <a href="<%- url_for(page.path) %>"><%= page.title %></a>
-            </li>
-        <% }) %>
-    </ul>
+          <% }) %>
+        </nav>
+      </div>
+    </div>
+  </div>
 </header>
