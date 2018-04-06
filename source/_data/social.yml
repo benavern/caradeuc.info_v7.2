@@ -1,0 +1,20 @@
+twitter:
+  name: 'Twitter'
+  url: 'https://twitter.com/benavern'
+  color: '#55acee'
+
+github:
+  name: 'Github'
+  url: 'https://github.com/benavern'
+  color: '#000'
+
+linkedin:
+  name: 'LinkedIn'
+  url: 'https://www.linkedin.com/in/benjamincaradeuc/'
+  color: '#007bb5'
+
+google_plus:
+  name: 'Google +'
+  url: https://plus.google.com/+BenjaminCARADEUC/
+  color: '#dd4b39'
+
