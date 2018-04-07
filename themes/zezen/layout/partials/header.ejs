@@ -1,21 +1,7 @@
-<header id="header">
-  <div class="container">
-    <div class="grid">
-      <div class="grid-item xs-4">
-        <a href="<%- url_for('/') %>"  class="btn btn-link">
-          Benjamin CARADEUC
-        </a>
-      </div>
-
-      <div class="grid-item xs-3-4">
-        <nav class="text-right">
-          <% site.pages.forEach(function (page) { %>
-            <a href="<%- url_for(page.path) %>" class="btn btn-link">
-              <%= page.title %>
-            </a>
-          <% }) %>
-        </nav>
-      </div>
+<header>
+  <div style="background-color: #eee; padding-top: 150px;">
+    <div class="container">
+      <h1><%= page.title %></h1>
     </div>
   </div>
 </header>
