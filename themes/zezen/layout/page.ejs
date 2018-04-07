@@ -1,3 +1,9 @@
-<h1><%= page.title %></h1>
-
-<%- page.content %>
+<div id="<%= page.template ? 'page-' + page.template : '' %>" class="page">
+  <% if (page.template) { %>
+    <%- partial('pages/' + page.template) %>
+  <% } else { %>
+    <div class="container">
+      <%- page.content %>
+    </div>
+  <% } %>
+</div>
