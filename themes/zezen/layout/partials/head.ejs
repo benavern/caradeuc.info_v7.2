@@ -5,7 +5,7 @@
 
 <%- open_graph({
   title: titlecase(page.title),
-  image: url_for('images/avatar.png'),
+  image: url_for(page.header_img || 'images/avatar.png'),
 
 }) %>
 

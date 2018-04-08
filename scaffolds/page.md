@@ -1,4 +1,5 @@
 ---
 title: {{ title }}
-page_template: null
+page_template:
+header_img:
 ---
