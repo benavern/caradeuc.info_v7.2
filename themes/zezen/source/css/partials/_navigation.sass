@@ -25,7 +25,9 @@
       flex: 1
       align-items: center
       justify-content: flex-end
-      text-shadow: 0 0 .2em rgba($white, .5)
+
+      .color-white
+        text-shadow: 0 0 .2em rgba($black, .5)
 
 
 body.scrolled
@@ -35,4 +37,6 @@ body.scrolled
     box-shadow: 0 0 1rem rgba($black, .3)
 
     .grid-item.nav-wrapper
-      text-shadow: none
+      .color-white
+        text-shadow: none
+        color: $gray-dark

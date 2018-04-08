@@ -10,7 +10,7 @@
       <div class="grid-item nav-wrapper">
         <nav>
           <% site.pages.forEach(function (page) { %>
-            <a href="<%- url_for(page.path) %>" class="btn btn-link">
+            <a href="<%- url_for(page.path) %>" class="btn btn-link <%= is_home() ? 'color-gray-dark' : 'color-white' %>">
               <%= page.title %>
             </a>
           <% }) %>
