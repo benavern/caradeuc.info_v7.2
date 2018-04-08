@@ -1,3 +1,26 @@
-<footer>
-  <h1>Footer</h1>
+<footer id="footer" class="bg-gray-dark color-white">
+  <div class="container text-center">
+    <p>
+      <% for(key in site.data.social) { %>
+        <% var social = site.data.social[key] %>
+
+        <a href="<%= social.url %>"
+          class="btn btn-link no-decoration"
+          title="Venez voir mon <%= social.name %>!">
+          <%- partial('../components/icone', { name: key, size: '1.5rem', color: '#fff'}) %>
+        </a>
+      <% } %>
+    </p>
+
+    <p>
+      <small>
+        <span class="color-blue">&lt;/&gt;</span>
+        avec
+        <span class="color-violet text-lg">♥</span>
+        par
+        <%- link_to('/contact', 'Benjamin Caradeuc') %>
+
+      </small>
+    </p>
+  </div>
 </footer>
