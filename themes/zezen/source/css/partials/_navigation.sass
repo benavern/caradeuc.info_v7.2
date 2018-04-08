@@ -21,22 +21,80 @@
         border-radius: .25rem
         box-shadow: 0 0 .2rem rgba($black, .2)
 
-    &.nav-wrapper
-      flex: 1
-      align-items: center
-      justify-content: flex-end
+    @media (max-width: $medium) // mobile
+      &.nav-wrapper
+        display: none
 
-      .color-white
-        text-shadow: 0 0 .2em rgba($black, .5)
+      &.nav-toggle-wrapper
+        flex: 1
+        align-items: center
+        justify-content: flex-end
 
 
-body.scrolled
-  #navigation
-    padding: 0
-    background-color: rgba($white, .95)
-    box-shadow: 0 0 1rem rgba($black, .3)
+    @media (min-width: $medium) // desktop
+      &.nav-toggle-wrapper,
+      .nav-close-wrapper
+        display: none
 
-    .grid-item.nav-wrapper
-      .color-white
-        text-shadow: none
-        color: $gray-dark
+      &.nav-wrapper
+        flex: 1
+        align-items: center
+        justify-content: flex-end
+
+        .color-white
+          text-shadow: 0 0 .2em rgba($black, .5)
+
+body
+  &.scrolled
+    #navigation
+      padding: 0
+      background-color: rgba($white, .95)
+      box-shadow: 0 0 1rem rgba($black, .3)
+
+      .grid-item
+        &.nav-wrapper
+          .color-white
+            text-shadow: none
+            color: $gray-dark
+
+        &.nav-toggle-wrapper
+          .icon-menu
+            path
+              fill: #404040 !important
+
+  @media (max-width: $medium) // mobile
+    &.menu-visible
+      overflow: hidden // stop scroll
+
+      #navigation
+        .grid-item
+          &.nav-wrapper
+            display: block
+            position: fixed
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background-color: $primary
+            font-size: 1.5rem
+
+            .nav-close-wrapper
+              position: absolute
+              z-index: 1
+              top: 0
+              right: 0
+              margin: 1rem 0
+
+            nav
+              display: flex
+              width: 100%
+              height: 100%
+              flex-direction: column
+              align-items: center
+              justify-content: center
+
+              .btn
+                color: $white
+                margin: 1rem 0
+                width: 100%
+                text-align: center
