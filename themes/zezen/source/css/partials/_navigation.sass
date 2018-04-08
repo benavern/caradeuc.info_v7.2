@@ -8,7 +8,7 @@
   transition: all .3s
 
   @media (min-width: $medium)
-    padding: 3rem 0
+    padding: 1rem 0
 
   .grid-item
     display: flex
@@ -19,11 +19,13 @@
         display: inline-block
         width: 3rem
         border-radius: .25rem
+        box-shadow: 0 0 .2rem rgba($black, .2)
 
     &.nav-wrapper
       flex: 1
       align-items: center
       justify-content: flex-end
+      text-shadow: 0 0 .2em rgba($white, .5)
 
 
 body.scrolled
@@ -31,3 +33,6 @@ body.scrolled
     padding: 0
     background-color: rgba($white, .95)
     box-shadow: 0 0 1rem rgba($black, .3)
+
+    .grid-item.nav-wrapper
+      text-shadow: none
