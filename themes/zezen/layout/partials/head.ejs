@@ -1,10 +1,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<% if (theme.favicon) { %>
-    <link rel="icon" href="<%- theme.favicon %>">
-<% } %>
+<link rel="shortcut icon" href="<%= url_for('images/avatar.png') %>" type="image/png">
 
-<title><%= config.title %></title>
+<%- open_graph({
+  title: titlecase(page.title),
+  image: url_for('images/avatar.png'),
 
-<%- css('css/style')%>
+}) %>
+
+<title>
+  <%- page.title ? titlecase(page.title) + " | " + titlecase(config.title) : titlecase(config.title) %>
+</title>
+
+<%- css('css/style') %>
