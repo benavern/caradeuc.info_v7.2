@@ -1,15 +1,14 @@
 <div id="navigation">
   <div class="container">
     <div class="grid">
-      <div class="grid-item xs-4">
+      <div class="grid-item logo-wrapper">
         <a href="<%- url_for('/') %>"  class="btn btn-link">
-          <!-- Benjamin CARADEUC -->
           <%- image_tag('images/avatar.png', {alt: 'Benjamin CARADEUC', class: 'avatar'}) %>
         </a>
       </div>
 
-      <div class="grid-item xs-3-4">
-        <nav class="text-right">
+      <div class="grid-item nav-wrapper">
+        <nav>
           <% site.pages.forEach(function (page) { %>
             <a href="<%- url_for(page.path) %>" class="btn btn-link">
               <%= page.title %>

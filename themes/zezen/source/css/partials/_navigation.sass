@@ -10,13 +10,24 @@
   @media (min-width: $medium)
     padding: 3rem 0
 
-  .avatar
-    display: inline-block
-    width: 3rem
-    border-radius: 3rem
+  .grid-item
+    display: flex
+    width: auto
+
+    &.logo-wrapper
+      .avatar
+        display: inline-block
+        width: 3rem
+        border-radius: .25rem
+
+    &.nav-wrapper
+      flex: 1
+      align-items: center
+      justify-content: flex-end
+
 
 body.scrolled
-  #header
+  #navigation
     padding: 0
     background-color: rgba($white, .95)
     box-shadow: 0 0 1rem rgba($black, .3)
