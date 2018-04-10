@@ -6,4 +6,4 @@ header_img: 'https://images.unsplash.com/photo-1484191914255-a429e6f819b4?ixlib=
 
 # Restons en contact!
 
-Pour me contacter, utilisez le formulaire ci-contre.
+Pour me contacter, merci d'utiliser ce formulaire.

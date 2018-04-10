@@ -8,7 +8,7 @@
 
     <div class="grid-item m-2-3">
       <div class="box">
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST" action="/contact/success.html" netlify>
           <%- partial('../components/input', { type: 'text', label: 'Nom', icone: 'person', name: 'name' }) %>
 
           <%- partial('../components/input', { type: 'email', label: 'Email', icone: 'mail', name: 'email' }) %>
