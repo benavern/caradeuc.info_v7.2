@@ -84,3 +84,8 @@ deploy:
 # hexo-generator-sitemap
 sitemap:
   path: sitemap.xml
+
+# hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
