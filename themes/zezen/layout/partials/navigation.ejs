@@ -9,11 +9,13 @@
 
       <div class="grid-item nav-wrapper">
         <nav>
-          <% site.pages.forEach(function (page) { %>
-            <a href="<%- url_for(page.path) %>" class="btn btn-link <%= is_home() ? 'color-gray-dark' : 'color-white' %>">
-              <%= page.title %>
+          <% for(key in site.data.menu) { %>
+            <a href="<%- url_for(site.data.menu[key].path) %>" class="btn btn-link
+              <%= is_home() ? 'color-gray-dark' : 'color-white' %>
+              <%= (is_current(site.data.menu[key].path) || is_post() && site.data.menu[key].path === '/blog') ? 'active' : ''%>">
+              <%= site.data.menu[key].title %>
             </a>
-          <% }) %>
+          <% } %>
         </nav>
         <div class="nav-close-wrapper">
           <a href="#" class="btn btn-link no-decoration">

@@ -1,0 +1,11 @@
+home:
+  title: Accueil
+  path: /
+
+blog:
+  title: Blog
+  path: /blog
+
+contact:
+  title: Contact
+  path: /contact

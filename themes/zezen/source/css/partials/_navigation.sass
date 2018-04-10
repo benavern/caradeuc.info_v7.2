@@ -41,6 +41,9 @@
         align-items: center
         justify-content: flex-end
 
+        .btn.active
+          border-bottom: .15em solid $primary
+
         .color-white
           text-shadow: 0 0 .2em rgba($black, .5)
 
@@ -98,3 +101,6 @@ body
                 margin: 1rem 0
                 width: 100%
                 text-align: center
+
+                &.active
+                  background-color: rgba($black, .3)
