@@ -3,6 +3,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="shortcut icon" href="<%= url_for('images/avatar.png') %>" type="image/png">
 
+<%- feed_tag('/atom.xml') %>
+
 <%- open_graph({
   title: titlecase(page.title),
   image: url_for(page.header_img || 'images/avatar.png'),
