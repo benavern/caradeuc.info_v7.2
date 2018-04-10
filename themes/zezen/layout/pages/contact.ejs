@@ -9,32 +9,18 @@
     <div class="grid-item m-2-3">
       <div class="box">
         <form name="contact" method="POST" netlify>
-          <div class="input">
-            <label for="name">
-              <%- partial('../components/icone', { name: 'person', color: '#bfbfbf' }) %>
-              Nom
-            </label>
-            <input id="name" type="text" name="name" required>
-          </div>
+          <%- partial('../components/input', { type: 'text', label: 'Nom', icone: 'person', name: 'name' }) %>
 
-          <div class="input">
-            <label for="email">
-            <%- partial('../components/icone', { name: 'mail', color: '#bfbfbf' }) %>
-              Email
-            </label>
-            <input id="email" type="email" name="email" required>
-          </div>
+          <%- partial('../components/input', { type: 'email', label: 'Email', icone: 'mail', name: 'email' }) %>
 
-          <div class="input">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required></textarea>
-          </div>
+          <%- partial('../components/input', { type: 'textarea', label: 'Message', name: 'message' }) %>
 
           <div data-netlify-recaptcha></div>
 
           <p>
             <button type=”submit” class="btn bg-primary color-white icon-left">
               <%- partial('../components/icone', { name: 'mail', color: '#fff' }) %>
+
               Send
             </button>
           </p>

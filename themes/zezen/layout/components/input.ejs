@@ -1,0 +1,22 @@
+<%
+  var name = name || label.toLowerCase()
+  var type = type || 'text'
+  var icone = icone || false
+%>
+
+<div class="input">
+  <label for="<%= name %>">
+    <% if (icone) { %>
+      <%- partial('../components/icone', { name: icone, color: '#bfbfbf' }) %>
+    <% } %>
+
+    <%= label %>
+  </label>
+
+  <% if (type === 'textarea') { %>
+    <textarea id="<%= name %>" name="<%= name %>" required></textarea>
+
+  <% } else { %>
+    <input id="<%= name %>" type="text" name="<%= name %>" required>
+  <% } %>
+</div>
