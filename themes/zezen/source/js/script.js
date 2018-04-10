@@ -23,7 +23,8 @@
     }
   }
 
-  function handleToggleMenu () {
+  function handleToggleMenu (e) {
+    e.preventDefault()
     document.body.classList.toggle('menu-visible')
   }
 
