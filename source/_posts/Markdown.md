@@ -1,6 +1,5 @@
 ---
 title: Hello, World
-date: 2018-03-26 19:20:38
 author: Benjamin Caradeuc
 header_img: "example-image.jpg"
 ---
@@ -158,7 +157,7 @@ Notice again how text always lines up on 4-space indents (including
 that last line which continues item 3 above).
 
 Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc), and to a [section heading in the current
+doc](local-doc.html), and to a [section heading in the current
 doc](#An-h2-header).
 
 Tables can look like this:
