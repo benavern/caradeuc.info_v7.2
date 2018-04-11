@@ -2,6 +2,7 @@
 
   // --- variables
   var inputFields = [].slice.call(document.querySelectorAll('.input input, .input textarea'))
+  var headingsAnchors = [].slice.call(document.querySelectorAll('#post .post-content h1[id], #post .post-content h2[id], #post .post-content h3[id]'))
 
   // --- functions
   function handleScrolled () {
@@ -28,10 +29,16 @@
     document.body.classList.toggle('menu-visible')
   }
 
+  function createPostAnchorLinks() {
+    headingsAnchors.forEach(function (anchor) {
+      anchor.insertAdjacentHTML('beforeend', '<a href="#' + anchor.id + '" class="anchor-link">🔗</a>');
+    })
+  }
+
   // --- events
   window.addEventListener('scroll', handleScrolled)
 
-  inputFields.forEach(input => {
+  inputFields.forEach(function (input) {
     input.addEventListener('focus', handleInputFields)
     input.addEventListener('blur', handleInputFields)
   })
@@ -41,5 +48,6 @@
 
   // --- init
   handleScrolled()
+  createPostAnchorLinks()
 
 })(window, document)
