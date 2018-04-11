@@ -1,0 +1,138 @@
+#post
+  .post-content
+    // blockquote
+    blockquote
+      position: relative
+      background-color: $gray-lighter
+      margin: 1rem 0
+      padding: 1rem 1rem 1rem 2rem
+      border-radius: .25rem
+
+      &:before
+        content: '”'
+        position: absolute
+        left: -.75rem
+        top: -3rem
+        color: rgba($gray-light, .5)
+        font-size: 6rem
+
+      p
+        &:first-child
+          margin-top: 0
+        &:last-child
+          margin-bottom: 0
+
+    // tables
+    table
+      border-collapse: collapse
+      width: 100%
+      margin: 1rem 0
+
+      th, td
+        text-align: left
+        padding: .25rem .5rem
+
+      tr:nth-child(even)
+        background-color: $gray-lighter
+
+      th
+        background-color: $green
+        color: $white
+
+    // images
+    img
+      max-width: 100%
+      display: block
+      margin: 1rem auto
+
+    // Code blocks
+    code
+      background-color: $gray-lighter
+      display: inline-block
+      padding: 0 .25rem
+      border-radius: .25rem
+
+    pre
+      position: relative
+      background-color: $gray-darker
+      color: $gray-lighter
+      width: 100%
+      padding: 1rem
+      border-radius: .25rem
+      font-size: .75rem
+      overflow-x: auto
+
+      & > code
+        background-color: transparent
+
+    figure.highlight
+      width: 100%
+      margin: 1rem 0
+      background-color: $gray-darker
+      border-radius: .25rem
+      overflow: auto
+
+      table
+        border-collapse: collapse
+        width: auto
+        margin: 0
+
+        th,
+        td
+          border: none
+          padding: 0
+
+        tr
+          background-color: initial
+
+        td.code
+          width: 100%
+
+      pre
+        margin: 0
+        // overflow-x: initial
+
+      .gutter
+        border-right: 1px solid rgba($gray, .2)
+
+        pre
+          padding: 1rem .75rem
+          color: $gray
+
+      .code
+        .line
+          // highlight js
+          .comment
+            color: $green
+
+          .keyword
+            color: $blue
+
+          .number
+            color: lighten(green, 65%)
+
+          .string
+            color: $orange
+
+          .function
+            .title
+              color: $yellow
+
+          .built_in
+            text-transform: italic
+            color: lighten($blue, 25%)
+
+          // highlight js
+          [class^="selector-"]
+            color: lighten($yellow, 25%)
+
+          .variable
+            color: $orange
+
+          // highlight html
+          .tag
+            .name
+              color: $blue
+            .attr
+              color: lighten($blue, 25%)
+

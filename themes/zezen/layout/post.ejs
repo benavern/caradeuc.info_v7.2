@@ -1,5 +1,13 @@
 <%- partial('partials/header')%>
 
-<div class="container">
-  <%- page.content %>
+<div class="container" id="post">
+  <div class="grid">
+    <article class="grid-item m-5-6 post-content">
+      <div class="box">
+        <%- page.content %>
+      </div>
+    </article>
+
+    <aside class="grid-item m-1-6 post-aside"></aside>
+  </div>
 </div>

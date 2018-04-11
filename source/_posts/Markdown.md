@@ -2,6 +2,7 @@
 title: Hello, World
 date: 2018-03-26 19:20:38
 author: Benjamin Caradeuc
+header_img: "example-image.jpg"
 ---
 
 An h1 header
@@ -9,8 +10,11 @@ An h1 header
 
 Paragraphs are separated by a blank line.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+2nd paragraph.
+
+*Italic*, **bold**, and `monospace`.
+
+Itemized lists look like:
 
   * this one
   * that one
@@ -24,6 +28,8 @@ content starts at 4-columns in.
 >
 > They can span multiple paragraphs,
 > if you like.
+>
+> --- somebody
 
 Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
 in chapters 12--14"). Three dots ... will be converted to an ellipsis.
@@ -58,15 +64,69 @@ define foobar() {
 (which makes copying & pasting easier). You can optionally mark the
 delimited block for Pandoc to syntax highlight it:
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
+~~~js
+/**
+ * Add class 'scrolled' class when page scrolled
+ */
+function handleScrolled () {
+  // depends on window.scrollY
+    if (window.scrollY > 0) {
+      document.body.classList.add('scrolled')
+    } else {
+      document.body.classList.remove('scrolled')
+    }
+  }
 ~~~
 
+```scss
+#post
+  .post-content
+    // Code blocks
+    code
+      background-color: $gray-lighter
+      display: inline-block
+      padding: 0 .25rem
+      border-radius: .25rem
+    [class^="selector-"]
+      color: lighten($yellow, 25%)
+
+```
+
+
+```html
+<!-- un fichier vue ça marche ? -->
+<div class="container" id="post">
+  <div class="grid">
+    <article class="grid-item m-5-6 post-content">
+      <div class="box">
+        page.content
+      </div>
+    </article>
+
+    <aside class="grid-item m-1-6 post-aside"></aside>
+  </div>
+</div>
+<script>
+  var truc = 'chose';
+</script>
+<style lang="sass">
+  #post
+  .post-content
+    // Code blocks
+    code
+      background-color: $gray-lighter
+      display: inline-block
+      padding: 0 .25rem
+      border-radius: .25rem
+    [class^="selector-"]
+      color: lighten($yellow, 25%)
+</style>
+
+<!--
+  oui mais pas le sass
+-->
+
+```
 
 
 ### An h3 header ###
@@ -98,66 +158,26 @@ Notice again how text always lines up on 4-space indents (including
 that last line which continues item 3 above).
 
 Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
+doc](local-doc), and to a [section heading in the current
+doc](#An-h2-header).
 
 Tables can look like this:
 
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
+| size | material    |  color      |
+|------|-------------|-------------|
+| 9    | leather     | brown       |
+| 10   | hemp canvas | natural     |
+| 11   | glass       | transparent |
 
 Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
 
 A horizontal rule follows.
 
 ***
 
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
-
-Here's a "line block":
-
-| Line one
-|   Line too
-| Line tree
-
 and images can be specified like so:
 
 ![example image](example-image.jpg "An exemplary image")
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
 
 And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
