@@ -1,7 +1,8 @@
 ---
 title: Hello, World
 author: Benjamin Caradeuc
-header_img: "example-image.jpg"
+featured_image: example-image.jpg
+thumbnail: example-thumbnail.jpg
 ---
 
 An h1 header

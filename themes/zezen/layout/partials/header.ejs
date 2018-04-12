@@ -1,4 +1,8 @@
-<header id="page-header" style="background-image: url(<%= url_for(page.header_img || theme.default_header_img) %>)">
+<%
+  var header_img_url = page.featured_image || theme.default_header_img
+%>
+
+<header id="page-header" style="background-image: url(<%= header_img_url %>)">
   <div class="container">
     <h1><%= titlecase(page.title) %></h1>
 
