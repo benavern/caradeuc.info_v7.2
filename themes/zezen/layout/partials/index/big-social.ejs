@@ -1,21 +1,19 @@
 <div id="big-social">
   <div class="container">
     <div class="grid">
-      <% for(key in site.data.social) { %>
-        <% var social = site.data.social[key] %>
-
+      <% site.data.social.filter(s => !!s.url).forEach((social, i, arr) => { %>
         <a href="<%= social.url %>"
-            class="grid-item xs-<%= Object.keys(site.data.social).length %> text-center no-decoration"
+            class="grid-item xs-<%= arr.length %> text-center no-decoration"
             title="Venez voir mon <%= social.name %>!">
           <div class="box">
-            <%- partial('../../components/icone', { name: key, size: '3rem'}) %>
+            <%- partial('../../components/icone', { name: social.key, size: '3rem'}) %>
 
             <div class="social-label color-gray-light font-bold">
               <%= social.name %>
             </div>
           </div>
         </a>
-      <% } %>
+      <% }) %>
     </div>
   </div>
 </div>

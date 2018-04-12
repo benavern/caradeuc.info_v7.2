@@ -1,19 +1,23 @@
-twitter:
+- key: twitter
   name: 'Twitter'
   url: 'https://twitter.com/benavern'
   color: '#55acee'
 
-github:
+- key: facebook
+  name: 'Facebook'
+  color: 'blue'
+
+- key: github
   name: 'Github'
   url: 'https://github.com/benavern'
   color: '#000'
 
-linkedin:
+- key: linkedin
   name: 'LinkedIn'
   url: 'https://www.linkedin.com/in/benjamincaradeuc/'
   color: '#007bb5'
 
-google_plus:
+- key: google_plus
   name: 'Google+'
   url: https://plus.google.com/+BenjaminCARADEUC/
   color: '#dd4b39'
