@@ -1,10 +1,8 @@
 (function(window, document, undefined) {
 
-  // --- variables
-  var inputFields = [].slice.call(document.querySelectorAll('.input input, .input textarea'))
-  var headingsAnchors = [].slice.call(document.querySelectorAll('#post .post-content h1[id], #post .post-content h2[id], #post .post-content h3[id]'))
-
-  // --- functions
+  /**
+   * Add scrolled on body when window has been scrolled
+   */
   function handleScrolled () {
     if (window.scrollY > 0) {
       document.body.classList.add('scrolled')
@@ -13,6 +11,14 @@
     }
   }
 
+  window.addEventListener('scroll', handleScrolled)
+  handleScrolled()
+
+
+  /**
+   * Handle the states of the inputs (because of the material design like)
+   */
+  var inputFields = [].slice.call(document.querySelectorAll('.input input, .input textarea'))
   function handleInputFields (e) {
     if (e && e.type === 'focus') {
       this.parentNode.classList.add('is-focus', 'has-value')
@@ -24,10 +30,28 @@
     }
   }
 
+  inputFields.forEach(function (input) {
+    input.addEventListener('focus', handleInputFields)
+    input.addEventListener('blur', handleInputFields)
+  })
+
+
+  /**
+   * Toggle the menu visibility
+   */
   function handleToggleMenu (e) {
     e.preventDefault()
     document.body.classList.toggle('menu-visible')
   }
+
+  document.querySelector('.nav-close-wrapper').addEventListener('click', handleToggleMenu)
+  document.querySelector('.nav-toggle-wrapper').addEventListener('click', handleToggleMenu)
+
+
+  /**
+   * Add a link on each anchor on a post
+   */
+  var headingsAnchors = [].slice.call(document.querySelectorAll('#post .post-content h1[id], #post .post-content h2[id], #post .post-content h3[id]'))
 
   function createPostAnchorLinks() {
     headingsAnchors.forEach(function (anchor) {
@@ -35,19 +59,39 @@
     })
   }
 
-  // --- events
-  window.addEventListener('scroll', handleScrolled)
-
-  inputFields.forEach(function (input) {
-    input.addEventListener('focus', handleInputFields)
-    input.addEventListener('blur', handleInputFields)
-  })
-
-  document.querySelector('.nav-close-wrapper').addEventListener('click', handleToggleMenu)
-  document.querySelector('.nav-toggle-wrapper').addEventListener('click', handleToggleMenu)
-
-  // --- init
-  handleScrolled()
   createPostAnchorLinks()
+
+
+  /**
+   * Make the Aside sticky when possible
+   */
+  var stickyAsideWrapper = document.querySelector('.post-aside')
+  var stickyAside = document.querySelector('.post-aside .sharers')
+  var nav = document.querySelector('#navigation')
+  var header = document.querySelector('#page-header')
+
+  function handleStickyAside () {
+    // if no aside to stick, do nothing
+    if (!stickyAsideWrapper) return
+
+    // if scrolled to bottom, do nothing
+    if (window.scrollY >= document.body.scrollHeight - window.innerHeight) return
+
+    var isDesktop = document.body.offsetWidth >= 768
+    var navHeight = nav.offsetHeight // because it can change
+    var headerHeight = header.offsetHeight
+    var sticky = window.scrollY > (headerHeight - navHeight)
+
+    if (isDesktop && sticky) {
+      stickyAside.style.transform = 'translateY(' + (window.scrollY - headerHeight + navHeight) + 'px)'
+    }
+    else if (!isDesktop || isDesktop && window.scrollY === 0) {
+      stickyAside.style.transform = 'unset'
+    }
+  }
+
+  window.addEventListener('scroll', handleStickyAside, 50)
+  window.addEventListener('resize', handleStickyAside, 50)
+  handleStickyAside()
 
 })(window, document)
