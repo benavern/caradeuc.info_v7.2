@@ -1,0 +1,14 @@
+<div class="grid sharers">
+  <div class="sharers-title grid-item xs-5 m-1">
+    PARTAGE
+  </div>
+
+  <% site.data.social.filter(s => !!s.sharer_url).forEach(social => { %>
+    <a class="sharers-link grid-item xs-5 m-1"
+        href="<%= social.sharer_url.replace('{url}', encodeURIComponent(page.permalink)) %>"
+        title="Partager sur <%= social.name %>"
+        target="_blank">
+      <%- partial('../../components/icone', { name: social.key, color: social.color, size: '1.5rem' })%>
+    </a>
+  <% }) %>
+</div>

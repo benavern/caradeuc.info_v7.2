@@ -1,20 +1,28 @@
-twitter:
+- key: twitter
   name: 'Twitter'
   url: 'https://twitter.com/benavern'
   color: '#55acee'
+  sharer_url: 'https://twitter.com/intent/tweet?url={url}'
 
-github:
+- key: facebook
+  name: 'Facebook'
+  color: '#3b5999'
+  sharer_url: 'https://www.facebook.com/sharer.php?u={url}'
+
+- key: github
   name: 'Github'
   url: 'https://github.com/benavern'
   color: '#000'
 
-linkedin:
+- key: linkedin
   name: 'LinkedIn'
   url: 'https://www.linkedin.com/in/benjamincaradeuc/'
   color: '#007bb5'
+  sharer_url: https://www.linkedin.com/shareArticle?mini=true&url={url}
 
-google_plus:
+- key: google_plus
   name: 'Google+'
   url: https://plus.google.com/+BenjaminCARADEUC/
   color: '#dd4b39'
+  sharer_url: https://plus.google.com/share?url={url}
 

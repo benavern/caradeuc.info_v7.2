@@ -1,14 +1,5 @@
 <div class="container">
-
   <%- page.content %>
 
-  <ul>
-    <% site.posts.forEach(post => { %>
-      <li>
-        <a href="<%= url_for(post.path) %>">
-          <%= post.title %>
-        </a>
-      </li>
-    <% }) %>
-  </ul>
+  <%- partial('../partials/posts') %>
 </div>
