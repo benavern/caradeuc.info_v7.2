@@ -1,7 +1,17 @@
-<ul>
-    <% site.posts.forEach(function (post) { %>
-        <li>
-            <a href="<%- url_for(post.path) %>"><%= post.title %></a>
-        </li>
-    <% }) %>
-</ul>
+<div class="grid">
+  <% site.posts.forEach(function (post) { %>
+    <div class="grid-item s-2 m-3">
+      <div class="box">
+        <%- partial('../components/card/card', { items: [
+            {
+              type: 'image',
+              title: post.title, image: post.thumbnail || post.featured_image || theme.default_header_img,
+              small: `le ${date(post.date, 'DD/MM/YYYY')}` + (post.author ? ` par ${post.author}` : '')
+            },
+            { type: 'text', text: truncate(post.excerpt || strip_html(post.content), {length: 150})},
+            { type: 'button',  link: url_for(post.path), text: 'Lire l\'article...', class: 'btn-link'}
+          ]}) %>
+      </div>
+    </div>
+  <% }) %>
+</div>

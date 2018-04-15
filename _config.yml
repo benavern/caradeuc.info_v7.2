@@ -9,7 +9,7 @@ description: Benjamin Caradeuc | Ingénieur & lead développeur web
 keywords: dévelopeur, web, ingénieur, web, projects
 author: Benjamin Caradeuc <benjamin@caradeuc.info>
 language: fr
-timezone:
+timezone: Europe/Paris
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
