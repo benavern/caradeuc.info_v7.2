@@ -1,0 +1,5 @@
+<div class="card">
+  <% items.forEach(item => { %>
+    <%- partial(`./card-${item.type || 'text'}`, { item }) %>
+  <% }) %>
+</div>
