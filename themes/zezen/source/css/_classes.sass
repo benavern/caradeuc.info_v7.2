@@ -44,3 +44,24 @@
   max-width: $container-width
   margin: 0 auto
   padding: 1rem
+
+.pop
+  opacity: 0
+  will-change: transform, opacity
+  transition: transform .3s .3s, opacity .3s .3s
+
+  &.pop-left
+    transform: translate(-100%, 0)
+
+  &.pop-right
+    transform: translate(100%, 0)
+
+  &.pop-top
+    transform: translate(0, -100%)
+
+  &.pop-bottom
+    transform: translate(0, 100%)
+
+  &.popped
+    transform: translate(0, 0)
+    opacity: 1
