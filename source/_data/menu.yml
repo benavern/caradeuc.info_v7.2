@@ -6,6 +6,10 @@
   title: Blog
   path: /blog
 
+- key: about
+  title: A Propos
+  path: /about
+
 - key: contact
   title: Contact
   path: /contact
