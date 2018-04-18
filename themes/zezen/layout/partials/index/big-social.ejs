@@ -1,11 +1,13 @@
-<div id="big-social">
+<div id="big-social" class="has-triangle has-triangle-after">
+  <%- partial('../../components/triangle') %>
+
   <div class="container">
     <div class="grid">
       <% site.data.social.filter(s => !!s.url).forEach((social, i, arr) => { %>
         <a href="<%= social.url %>"
             class="grid-item xs-<%= arr.length %> text-center no-decoration"
             title="Venez voir mon <%= social.name %>!">
-          <div class="box">
+          <div class="box pop pop-bottom">
             <%- partial('../../components/icone', { name: social.key, size: '3rem'}) %>
 
             <div class="social-label color-gray-light font-bold">

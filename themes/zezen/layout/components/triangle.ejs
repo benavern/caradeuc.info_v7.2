@@ -1,0 +1,51 @@
+<%
+  var fill = "black"
+  var color= color || "nocolor"
+
+  switch (color) {
+    case 'primary':
+    case 'green':
+      fill = "#16a085"
+      break
+    case 'blue':
+      fill = "#2980b9"
+      break
+    case 'violet':
+      fill = "#8e44ad"
+      break
+    case 'yellow':
+      fill = "#f1c40f"
+      break
+    case 'orange':
+      fill = "#e67e22"
+      break
+    case 'red':
+      fill = "#c0392b"
+      break
+    case 'black':
+      fill = "#000"
+      break
+    case 'gray-darker':
+      fill = "#080808"
+      break
+    case 'gray-dark':
+      fill = "#404040"
+      break
+    case 'gray':
+      fill = "gray"
+      break
+    case 'gray-lighter':
+      fill = "#f7f7f7"
+      break
+    case 'gray-light':
+      fill = "#bfbfbf"
+      break
+    case 'white':
+    default:
+      fill = "#fff"
+  }
+%>
+
+<svg class="triangle" viewBox="0 0 100 100" preserveAspectRatio="none">
+  <polygon fill="<%= fill %>" points="0,100 0,75 25,100 50,25 75,50 100,0 100,100"/>
+</svg>

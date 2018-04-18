@@ -1,17 +1,22 @@
 <%- partial('partials/header')%>
 
-<div class="container" id="post">
-  <div class="grid">
-    <article class="grid-item m-5-6 post-content">
-      <div class="box">
-        <%- page.content %>
-      </div>
-    </article>
 
-    <aside class="grid-item m-1-6 post-aside">
-      <div class="box">
-        <%- partial('partials/post/aside') %>
-      </div>
-    </aside>
+<div id="post" class="has-triangle has-triangle-after">
+  <%- partial('./components/triangle', {color: 'white'}) %>
+
+  <div class="container">
+    <div class="grid">
+      <article class="grid-item m-5-6 post-content">
+        <div class="box">
+          <%- page.content %>
+        </div>
+      </article>
+
+      <aside class="grid-item m-1-6 post-aside">
+        <div class="box">
+          <%- partial('partials/post/aside') %>
+        </div>
+      </aside>
+    </div>
   </div>
 </div>

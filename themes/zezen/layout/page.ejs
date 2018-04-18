@@ -2,7 +2,9 @@
 
 <%- partial('partials/header') %>
 
-<div id="<%= page.template ? 'page-' + page.template : '' %>" class="page">
+<div id="<%= page.template ? 'page-' + page.template : '' %>" class="page has-triangle has-triangle-after">
+  <%- partial('./components/triangle', {color: 'white'}) %>
+
   <% if (page.template) { %>
     <%- partial('pages/' + page.template) %>
   <% } else { %>
