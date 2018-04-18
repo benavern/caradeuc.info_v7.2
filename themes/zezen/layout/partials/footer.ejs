@@ -1,4 +1,6 @@
-<footer id="footer" class="bg-gray-dark color-white">
+<footer id="footer" class="bg-gray-dark color-white has-triangle">
+  <%- partial('../components/triangle', {color: 'gray-dark'}) %>
+
   <div class="container text-center">
     <p>
       <% site.data.social.filter(s => !!s.url).forEach(social => { %>

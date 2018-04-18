@@ -1,4 +1,6 @@
-<div id="big-social">
+<div id="big-social" class="has-triangle has-triangle-after">
+  <%- partial('../../components/triangle') %>
+
   <div class="container">
     <div class="grid">
       <% site.data.social.filter(s => !!s.url).forEach((social, i, arr) => { %>
