@@ -61,6 +61,37 @@
 
   createPostAnchorLinks()
 
+  /**
+   * Smooth scroll
+   */
+  var hashLinks = [].slice.call(document.querySelectorAll('#post a[href^="#"]'))
+  var navigation = document.querySelector('#navigation')
+  var hashOnInit = document.location.hash
+
+  function smoothScroll(link) {
+    var hash = link.substring(link.indexOf('#'))
+    if(hash) {
+      var el = document.querySelector(hash)
+      window.scrollTo({
+        behavior: 'smooth',
+        left: 0,
+        top: window.scrollY + el.getBoundingClientRect().top - navigation.offsetHeight
+      })
+
+      history.replaceState({}, '', link);
+    }
+  }
+
+  // smoothScroll on hash links
+  hashLinks.forEach(hashLink => {
+    hashLink.addEventListener('click', (e) => {
+      e.preventDefault()
+      smoothScroll(hashLink.href)
+    })
+  })
+
+  // smoothScroll on init
+  smoothScroll(hashOnInit)
 
   /**
    * Make the Aside sticky when possible
