@@ -64,21 +64,24 @@
   /**
    * Smooth scroll
    */
-  var hashLinks = [].slice.call(document.querySelectorAll('#post a[href^="#"]'))
+  var hashLinks = [].slice.call(document.querySelectorAll('a[href^="#"]:not([href="#"])'))
   var navigation = document.querySelector('#navigation')
   var hashOnInit = document.location.hash
 
-  function smoothScroll(link) {
+  function smoothScroll(link, initial) {
     var hash = link.substring(link.indexOf('#'))
-    if(hash) {
-      var el = document.querySelector(hash)
+    var el = hash && document.querySelector(hash)
+    if(el) {
       window.scrollTo({
         behavior: 'smooth',
         left: 0,
         top: window.scrollY + el.getBoundingClientRect().top - navigation.offsetHeight
       })
 
-      history.replaceState({}, '', link);
+      history.pushState({}, '', link);
+    }
+    else if(!initial) {
+      document.location.href = link
     }
   }
 
@@ -91,7 +94,7 @@
   })
 
   // smoothScroll on init
-  smoothScroll(hashOnInit)
+  smoothScroll(hashOnInit, true)
 
   /**
    * Make the Aside sticky when possible
