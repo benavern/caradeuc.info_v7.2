@@ -48,18 +48,18 @@
   document.querySelector('.nav-toggle-wrapper').addEventListener('click', handleToggleMenu)
 
 
-  /**
-   * Add a link on each anchor on a post
-   */
-  var headingsAnchors = [].slice.call(document.querySelectorAll('#post .post-content h1[id], #post .post-content h2[id], #post .post-content h3[id]'))
+  // /**
+  //  * Add a link on each anchor on a post
+  //  */
+  // var headingsAnchors = [].slice.call(document.querySelectorAll('#post .post-content h1[id], #post .post-content h2[id], #post .post-content h3[id]'))
 
-  function createPostAnchorLinks() {
-    headingsAnchors.forEach(function (anchor) {
-      anchor.insertAdjacentHTML('beforeend', '<a href="#' + anchor.id + '" class="anchor-link">🔗</a>');
-    })
-  }
+  // function createPostAnchorLinks() {
+  //   headingsAnchors.forEach(function (anchor) {
+  //     anchor.insertAdjacentHTML('beforeend', '<a href="#' + anchor.id + '" class="anchor-link">🔗</a>');
+  //   })
+  // }
 
-  createPostAnchorLinks()
+  // createPostAnchorLinks()
 
   /**
    * Smooth scroll

@@ -2,7 +2,8 @@
   var header_img_url = page.featured_image ? page.featured_image.replace('.html', '/') : theme.default_header_img
 %>
 
-<header id="page-header" style="background-image: url(<%= header_img_url %>)">
+<header id="page-header">
+  <div class="header-background" style="background-image: url(<%= header_img_url %>)"></div>
   <div class="container pop pop-bottom">
     <h1><%= titlecase(page.title) %></h1>
 
