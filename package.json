@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.6.0"
+    "version": "3.7.1"
   },
   "scripts": {
     "dev": "hexo serve",
@@ -12,7 +12,7 @@
     "deploy": "git checkout master && git merge develop --no-edit && git push && git checkout develop"
   },
   "dependencies": {
-    "hexo": "^3.2.0",
+    "hexo": "^3.7.1",
     "hexo-browsersync": "^0.3.0",
     "hexo-featured-image": "^0.2.1",
     "hexo-generator-archive": "^0.1.4",
