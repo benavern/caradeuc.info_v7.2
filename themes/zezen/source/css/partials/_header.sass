@@ -1,10 +1,5 @@
 header#page-header
   position: relative
-  background:
-    color: $gray-lighter
-    repeat: no-repeat
-    size: cover
-    position: center center
   color: $white
   text-shadow: 0 0 .2em rgba($black, .5)
   padding: 6rem 0 2rem
@@ -13,15 +8,18 @@ header#page-header
   @media (min-width: $medium)
     padding: 8rem 0 2rem
 
-  &:before
-    content: ""
+  .header-background
     position: absolute
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    background-color: rgba($black, .1)
-    box-shadow: 0 0 10rem $black inset
+    top: -1rem
+    left: -1rem
+    width: calc(100% + 2rem)
+    height: calc(100% + 2rem)
+    background:
+      color: $gray-lighter
+      repeat: no-repeat
+      size: cover
+      position: center center
+    filter: blur(.25rem) brightness(.75)
 
   .container
     position: relative
