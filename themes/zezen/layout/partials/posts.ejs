@@ -1,5 +1,8 @@
+<%
+  var posts = posts || site.posts || []
+%>
 <div class="grid">
-  <% site.posts.forEach(function (post) { %>
+  <% posts.forEach(function (post) { %>
     <div class="grid-item s-2 m-3">
       <div class="box">
         <%- partial('../components/card/card', { items: [
