@@ -19,6 +19,18 @@ a.btn
   &.btn-sm
     font-size: .6em
 
+  @each $color-key, $color-val in $colors
+
+    &.btn-border
+      border: 1px solid $color-val
+      box-shadow: none
+
+      &:hover
+        box-shadow: none
+        background-color: $color-val
+        color: $white
+
+
   &.icon-left
     .icon
       margin: 0 .5em 0 -0.5em

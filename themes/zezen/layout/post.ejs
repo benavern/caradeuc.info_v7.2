@@ -5,6 +5,14 @@
   <%- partial('./components/triangle', {color: 'white'}) %>
 
   <div class="container">
+
+    <%- list_tags(page.tags, {
+      style: 'none',
+      separator: ' ',
+      class: 'btn btn-sm btn-border border-white color-white',
+      show_count: false
+    }) %>
+
     <div class="grid">
       <article class="grid-item m-5-6 post-content">
         <div class="box">

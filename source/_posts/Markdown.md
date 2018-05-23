@@ -3,6 +3,10 @@ title: Hello, World
 author: Benjamin Caradeuc
 featured_image: example-image.jpg
 thumbnail: example-thumbnail.jpg
+tags:
+  - test
+  - hello world
+  - markdown
 ---
 
 An h1 header

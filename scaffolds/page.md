@@ -1,6 +1,6 @@
 ---
 title: {{ title }}
-page_template:
+template:
 featured_image:
 thumbnail:
 ---

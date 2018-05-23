@@ -1,0 +1,10 @@
+
+<%- partial('partials/header', {title: 'Tag : ' + page.tag }) %>
+
+<div id="page-tag" class="page has-triangle has-triangle-after">
+  <%- partial('./components/triangle', {color: 'white'}) %>
+
+  <div class="container">
+    <%- partial('partials/posts', {posts: page.posts}) %>
+  </div>
+</div>
