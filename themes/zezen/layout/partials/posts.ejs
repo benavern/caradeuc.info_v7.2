@@ -2,7 +2,7 @@
   var posts = posts || site.posts || []
 %>
 <div class="grid">
-  <% posts.forEach(function (post) { %>
+  <% posts.sort('date', -1).each(function (post) { %>
     <div class="grid-item s-2 m-3">
       <div class="box">
         <%- partial('../components/card/card', { items: [

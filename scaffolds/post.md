@@ -1,7 +1,8 @@
 ---
 title: {{ title }}
 tags:
-author: {{ author }}
+author:
 featured_image:
 thumbnail:
+date: {{ date }}
 ---
