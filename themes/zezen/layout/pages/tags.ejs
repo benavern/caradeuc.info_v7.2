@@ -1,14 +1,14 @@
 <div class="container">
 
+  <p>
+    <%- link_to('/blog', '<< Retour aux articles', {class: "btn btn-link"}) %>
+  </p>
+
   <%- list_tags({
       style: 'none',
       separator: ' ',
       class: 'btn btn-sm btn-border border-white color-white',
       show_count: false
     }) %>
-
-    <p>
-      <%- link_to('/blog', '<< Tous les articles', {class: "btn btn-link"}) %>
-    </p>
 
 </div>
