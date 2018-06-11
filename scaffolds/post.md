@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 tags:
-author:
+author: Benjamin Caradeuc
 featured_image:
 thumbnail:
 date: {{ date }}
