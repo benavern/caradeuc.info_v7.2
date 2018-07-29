@@ -22,4 +22,4 @@ There is a set of options and methods you will be able to use, everything is exp
 
 ---
 
-The code is available http://github.com/benavern/z-modal[on GitHub], feel free to contribute or comment!
+The code is available [on GitHub](http://github.com/benavern/z-modal), feel free to contribute or comment!
