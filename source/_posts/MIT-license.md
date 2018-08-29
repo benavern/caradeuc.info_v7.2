@@ -37,7 +37,7 @@ As a good developper, you want your creation to be usefull for other people!
 
 This is what I did :
 
-http://benavern.github.io/MIT/
+https://benavern.github.io/MIT/
 
 ---
 
@@ -56,7 +56,7 @@ Take me, my name is `Benjamin Caradeuc` and my personal website (where you can f
 
 The URL will be :
 
-http://benavern.github.io/MIT#name=Benjamin%20Caradeuc&link=http%3A//caradeuc.info/
+https://benavern.github.io/MIT#name=Benjamin%20Caradeuc&link=http%3A//caradeuc.info/
 
 ![screenshot](https://raw.githubusercontent.com/benavern/MIT/master/screenshot.png)
 
@@ -70,7 +70,7 @@ Don't forget to escape the data that you put in the url for a better compatibili
 
 If you don't want to personalize the page, you can pass a space in the name parameter. The space escaped code is `%20`, so the url will be :
 
-http://benavern.github.io/MIT#name=%20
+https://benavern.github.io/MIT#name=%20
 
 This will result in an anonymous license text.
 

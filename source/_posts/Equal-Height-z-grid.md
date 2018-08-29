@@ -8,8 +8,8 @@ tags:
   - labo
   - grid-system
 author: Benjamin Caradeuc
-featured_image: http://benavern.github.io/equalheight/screenshot.jpg
-thumbnail: http://benavern.github.io/equalheight/screenshot.jpg
+featured_image: https://benavern.github.io/equalheight/screenshot.jpg
+thumbnail: https://benavern.github.io/equalheight/screenshot.jpg
 ---
 
 Hi,
@@ -20,7 +20,7 @@ Today, I just made a little jQuery script that permits you to make your grid sys
 
 You just have to insert the `equalheight` class on each box that has to be resized and you're done.
 
-![Screenshot](http://benavern.github.io/equalheight/screenshot.jpg)
+![Screenshot](https://benavern.github.io/equalheight/screenshot.jpg)
 
 Examples are done with [z-grid](/2015/05/27/Z-Grid/), a lightweight grid system I created but it can be used on a ton of other grid systems.
 

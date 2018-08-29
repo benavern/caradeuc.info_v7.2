@@ -10,19 +10,19 @@ tags:
   - tags
   - oop
 author: Benjamin Caradeuc
-featured_image: http://benavern.github.io/z-tags/screenshot.jpg
-thumbnail: http://benavern.github.io/z-tags/screenshot.jpg
+featured_image: https://benavern.github.io/z-tags/screenshot.jpg
+thumbnail: https://benavern.github.io/z-tags/screenshot.jpg
 ---
 
 Hi,
 
-I come back today to share a new javascript plugin I made : [Z-TAGS](http://benavern.github.io/z-tags)
+I come back today to share a new javascript plugin I made : [Z-TAGS](https://benavern.github.io/z-tags)
 
 ---
 
 This is a little javascript system allowing you to quickly create tags sections with options.
 
-![Screenshot](http://benavern.github.io/z-tags/screenshot.jpg)
+![Screenshot](https://benavern.github.io/z-tags/screenshot.jpg)
 
 ---
 
@@ -67,7 +67,7 @@ var newTagArea = new ZTAGS({
 
 ## More information
 
-Everything is explained [HERE](http://benavern.github.io/z-tags/)
+Everything is explained [HERE](https://benavern.github.io/z-tags/)
 
 You can find the sources on the [github repo](http://github.com/benavern/z-tags)
 

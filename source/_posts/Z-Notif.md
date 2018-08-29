@@ -11,19 +11,19 @@ tags:
   - OOP
   - method chaining
 author: Benjamin Caradeuc
-featured_image: http://benavern.github.io/z-notif/screenshot.jpg
-thumbnail: http://benavern.github.io/z-notif/screenshot.jpg
+featured_image: https://benavern.github.io/z-notif/screenshot.jpg
+thumbnail: https://benavern.github.io/z-notif/screenshot.jpg
 ---
 
 Hi,
 
-I come back today to share a new javascript plugin I made : [Z-NOTIF](http://benavern.github.io/z-notif)
+I come back today to share a new javascript plugin I made : [Z-NOTIF](https://benavern.github.io/z-notif)
 
 ---
 
 This is a little javascript notification system allowing you to quickly attach notifications on user events.
 
-![Screenshot](http://benavern.github.io/z-notif/screenshot.jpg)
+![Screenshot](https://benavern.github.io/z-notif/screenshot.jpg)
 
 ---
 
@@ -67,7 +67,7 @@ elem.addEventListener("click", function(){
 
 ## More information
 
-Everything is explained [HERE](http://benavern.github.io/z-notif/)
+Everything is explained [HERE](https://benavern.github.io/z-notif/)
 
 You can find the sources on the [github repo](http://github.com/benavern/z-notif)
 
