@@ -9,6 +9,7 @@
     "dev": "hexo serve",
     "build": "hexo generate",
     "clean": "hexo clean",
+    "start": "npm run clean && npm run build && npx http-server -p 4000 public/",
     "deploy": "git checkout master && git merge develop --no-edit && git push && git checkout develop"
   },
   "dependencies": {
