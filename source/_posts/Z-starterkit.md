@@ -19,7 +19,7 @@ And then I had an idea: Why don't I make my own starterkit with everything sette
 
 Today, this idea becomes reality! Here is the first version of this starterkit&nbsp;:
 
-<!-- * [Project presentation](http://benavern.github.io/z-starterkit) -->
+<!-- * [Project presentation](https://benavern.github.io/z-starterkit) -->
 * [Project on GitHub](http://github.com/benavern/z-starterkit)
 
 ---

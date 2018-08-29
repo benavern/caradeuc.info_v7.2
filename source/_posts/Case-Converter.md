@@ -27,7 +27,7 @@ This is just a little tool I made to convert text to lower and upper case easily
 
 Don't hesitate to fork, pull request, notify me for bugs, give ideas to improve it...
 
-The project page is [HERE](http://benavern.github.io/caseconverter)
+The project page is [HERE](https://benavern.github.io/caseconverter)
 
 ---
 

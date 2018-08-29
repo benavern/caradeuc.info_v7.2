@@ -8,8 +8,8 @@ tags:
   - vanillajs
   - labo
 author: Benjamin Caradeuc
-featured_image: http://benavern.github.io/z-caroutext/screenshot.jpg
-thumbnail: http://benavern.github.io/z-caroutext/screenshot.jpg
+featured_image: https://benavern.github.io/z-caroutext/screenshot.jpg
+thumbnail: https://benavern.github.io/z-caroutext/screenshot.jpg
 ---
 Hi,
 
@@ -19,9 +19,9 @@ Yes I made an other project, not very usefull but it took me some time to be abl
 
 I made it with only [VanillaJs](http://vanilla-js.com/) (pure javascript) and wanted it to respect the Object Oriented Programmation rules.
 
-I called it [Z-Caroutext](http://benavern.github.io/z-caroutext)
+I called it [Z-Caroutext](https://benavern.github.io/z-caroutext)
 
-![z-caroutext](http://benavern.github.io/z-caroutext/screenshot.jpg)
+![z-caroutext](https://benavern.github.io/z-caroutext/screenshot.jpg)
 
 ---
 

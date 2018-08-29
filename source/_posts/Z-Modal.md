@@ -16,7 +16,7 @@ Today, the "Z" library is welcoming a new plugin!
 
 As usual, I developped it without any third party library or framework, so it is usable as-is. This tool will allow you to create beautiful & customisable modals easily with callback interactions.
 
-There is a set of options and methods you will be able to use, everything is explained [in the documentation](http://benavern.github.io/z-modal).
+There is a set of options and methods you will be able to use, everything is explained [in the documentation](https://benavern.github.io/z-modal).
 
 ![screenshot](https://raw.githubusercontent.com/benavern/z-modal/master/screenshot.jpg)
 

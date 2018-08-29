@@ -45,7 +45,7 @@ When you scroll back to the top of the webpage, everything resets and no need to
 
 ---
 
-## [Demo](http://benavern.github.io/pop-parallax/demo)
+## [Demo](https://benavern.github.io/pop-parallax/demo)
 
 ---
 

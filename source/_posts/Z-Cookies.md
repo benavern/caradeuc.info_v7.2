@@ -28,7 +28,7 @@ Here is our solution: A really lightweight vanilla JS Module to handle your cook
 
 It is available via :
 
-* [My personal website](http://benavern.github.io/z-cookies)
+* [My personal website](https://benavern.github.io/z-cookies)
 * [GitHub](http://github.com/benavern/z-cookies)
 * [NPM](https://www.npmjs.com/package/z-cookies)
 
@@ -119,7 +119,7 @@ npm run dev
 
 ## License
 
-[MIT](http://benavern.github.io/MIT/#name=Benjamin%20%26%20Jean-Sebastien)
+[MIT](https://benavern.github.io/MIT/#name=Benjamin%20%26%20Jean-Sebastien)
 
 ---
 
