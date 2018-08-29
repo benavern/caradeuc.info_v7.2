@@ -7,13 +7,13 @@ tags:
   - grid-system
   - html
 author: Benjamin Caradeuc
-featured_image: http://blog.caradeuc.info/z-grid/screenshot.jpg
-thumbnail: http://blog.caradeuc.info/z-grid/screenshot.jpg
+featured_image: http://benavern.github.io/z-grid/screenshot.jpg
+thumbnail: http://benavern.github.io/z-grid/screenshot.jpg
 ---
 
 Hi,
 
-Today, I come back here to share a new project I have made these last days : [Z-GRID](http://blog.caradeuc.info/z-grid)
+Today, I come back here to share a new project I have made these last days : [Z-GRID](http://benavern.github.io/z-grid)
 
 ---
 
@@ -23,7 +23,7 @@ It is composed of a RESET part of CSS so you should place it before your own css
 
 You will be able to create a grid by specifying how many columns you want. This grid will be displayed normally on a computer screen  and each box will be on a line on a mobile screen. It is possible to force the grid to display as you write it on mile screens.
 
-![Screenshot](http://blog.caradeuc.info/z-grid/screenshot.jpg)
+![Screenshot](http://benavern.github.io/z-grid/screenshot.jpg)
 
 ---
 
@@ -56,7 +56,7 @@ Here, there will be a grid with 2 boxes per lines.
 
 ## More information
 
-Everything is explained [HERE](http://blog.caradeuc.info/z-grid)
+Everything is explained [HERE](http://benavern.github.io/z-grid)
 
 ---
 

@@ -26,7 +26,7 @@ First, let me introduce you a little VueJs plugin I made for some projects of mi
 
 This little plugin is meant to give its users the the ability to have all the wording of an app centralised in a JSON object.
 
-_[Here is the Github page of the project](https://github.com/benavern/vue-wording) and the [Demo Page](https://blog.caradeuc.info/vue-wording)_
+_[Here is the Github page of the project](https://github.com/benavern/vue-wording) and the [Demo Page](https://benavern.github.io/vue-wording)_
 
 ---
 

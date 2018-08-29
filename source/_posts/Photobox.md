@@ -9,13 +9,13 @@ tags:
   - lightbox
   - vanillajs
 author: Benjamin Caradeuc
-featured_image: http://blog.caradeuc.info/z-photobox/screenshot.jpg
-thumbnail: http://blog.caradeuc.info/z-photobox/screenshot.jpg
+featured_image: http://benavern.github.io/z-photobox/screenshot.jpg
+thumbnail: http://benavern.github.io/z-photobox/screenshot.jpg
 ---
 
 Hi,
 
-Today, I am excited to share a new project I made : [Z-Photobox](http://blog.caradeuc.info/z-photobox)
+Today, I am excited to share a new project I made : [Z-Photobox](http://benavern.github.io/z-photobox)
 
 This is a little jquery script allowing you to quickly start a project by integrating a lightbox-like feature.
 
@@ -61,9 +61,9 @@ you didn't understand? here is an example :
 </html>
 ```
 
-Here, you could have put pictures or text inside the anchor tags as shown on the [DEMO site](http://blog.caradeuc.info/z-photobox/)
+Here, you could have put pictures or text inside the anchor tags as shown on the [DEMO site](http://benavern.github.io/z-photobox/)
 
-![Screenshot](http://blog.caradeuc.info/z-photobox/screenshot.jpg)
+![Screenshot](http://benavern.github.io/z-photobox/screenshot.jpg)
 
 ---
 

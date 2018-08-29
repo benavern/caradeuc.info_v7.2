@@ -23,8 +23,8 @@ It is called *Z-router* and here are some information about it :
 
 ---
 
-[Github](http://github.com/benavern/z-router)
-[Demo](http://blog.caradeuc.info/z-router)
+* [Github](http://github.com/benavern/z-router)
+* [Demo](http://benavern.github.io/z-router)
 
 ---
 

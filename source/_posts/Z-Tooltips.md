@@ -19,8 +19,8 @@ Today I want to show you something I did for some personnal projects and made it
 
 This is **Z-Tooltips**
 
-[Github](http://github.com/benavern/z-tooltips)
-[Demo](http://blog.caradeuc.info/z-tooltips)
+* [Github](http://github.com/benavern/z-tooltips)
+* [Demo](http://benavern.github.io/z-tooltips)
 
 ---
 
