@@ -13,7 +13,7 @@ timezone: Europe/Paris
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:4000
+url: https://benjamin.caradeuc.info
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
