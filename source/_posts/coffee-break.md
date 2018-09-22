@@ -68,6 +68,15 @@ npm run build && npm start
 
 ### Personnaliser
 
+A chaque fois que vous changez le code, il faut faire `ctrl+C` et relancer
+
+```bash
+# build de l'application puis lancement
+npm run build && npm start
+```
+
+Pour modifier la fenetre, ouvrir le fichier `src/MainWindow.vue` puis par exemple:
+
 ```html
 <template>
   <Window title="Example" width="400" height="100" margined v-on:close="exit">
@@ -85,7 +94,7 @@ npm run build && npm start
 export default {
   data () {
     return {
-      name: ""
+      name: "Nobody"
     }
   },
   methods: {
@@ -97,7 +106,7 @@ export default {
 </script>
 ```
 
-Comme vous l'avez surement remarqué, le template est uniquement composé de composants fournis par vuido, **aucun tag html ne peut être utilisé**.
+Comme vous l'avez surement remarqué, dans le template il y a uniquement des composants fournis par vuido, **aucun tag html ne peut être utilisé**.
 
 ![modif1](modif1.jpeg)
 
