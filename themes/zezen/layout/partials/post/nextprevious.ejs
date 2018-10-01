@@ -4,7 +4,7 @@
       <a href="<%= page.prev.permalink %>" class="box btn btn-lg btn-border border-gray-light color-gray-light text-right icon-left">
         <%- partial('../../components/icone.ejs', { name: 'left'}) %>
         <small>Article suivant</small>
-        <h3><%= page.prev.title %></h3>
+        <h3 class="font-title"><%= page.prev.title %></h3>
       </a>
     </div>
   <% } else { %>
@@ -15,7 +15,7 @@
     <div class="grid-item m-2 text-right">
       <a href="<%= page.next.permalink %>" class="box btn btn-lg btn-border border-gray-light color-gray-light text-left icon-right">
         <small>Article précédent</small>
-        <h3><%= page.next.title %></h3>
+        <h3 class="font-title"><%= page.next.title %></h3>
         <%- partial('../../components/icone.ejs', { name: 'right'}) %>
       </a>
     </div>
