@@ -8,13 +8,30 @@
   <div class="container pop pop-bottom">
     <h1><%= titlecase(title) %></h1>
 
-    <% if (page.author) { %>
-      <small><b><%= page.author %></b></small>
-    <% } %>
+    <% if (is_post()) {%>
+      <div>
+        <% if (page.author) { %>
+          <small><b><%= page.author %></b></small>
+        <% } %>
 
-    <% if (is_post() && page.date) { %>
-      <small>le <%= date(page.date, 'DD/MM/YYYY') %></small>
-    <% } %>
+        <% if (page.date) { %>
+          <small>le <%= date(page.date, 'DD/MM/YYYY') %></small>
+        <% } %>
+      </div>
+
+      <br>
+
+      <div>
+        <%- list_tags(page.tags, {
+            style: 'none',
+            separator: ' ',
+            class: 'btn btn-sm btn-border border-primary color-primary',
+            show_count: false
+          }) %>
+      </div>
+
+
+    <%} %>
 
   </div>
 </header>
