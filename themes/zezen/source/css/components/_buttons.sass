@@ -19,22 +19,42 @@ a.btn
   &.btn-sm
     font-size: .6em
 
-  @each $color-key, $color-val in $colors
+  &.btn-border
+    border: 1px solid $primary
+    box-shadow: none
+    fill: $primary
 
-    &.btn-border
-      border: 1px solid $color-val
+    &:hover
       box-shadow: none
+      background-color: $primary
+      color: $white
+      fill: $white
 
-      &:hover
-        box-shadow: none
-        background-color: $color-val
-        color: $white
+    @each $color-key, $color-val in $colors
 
+      &.border-#{$color-key}
+        border: 1px solid $color-val
+        fill: $color-val
+
+        &:hover
+          background-color: $color-val
+          fill: $white
+
+  &.icon-left,
+  &.icon-right
+    position: relative
+    .icon
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
 
   &.icon-left
+    padding-left: 3rem
+
     .icon
-      margin: 0 .5em 0 -0.5em
+      left: 1rem
 
   &.icon-right
+    padding-right: 3rem
     .icon
-      margin: 0 -.5em 0 .5em
+      right: 1rem
