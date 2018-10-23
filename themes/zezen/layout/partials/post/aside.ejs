@@ -8,7 +8,7 @@
         href="<%= social.sharer_url.replace('{url}', encodeURIComponent(page.permalink)) %>"
         title="Partager sur <%= social.name %>"
         target="_blank">
-      <%- partial('../../components/icone', { name: social.key, color: social.color, size: '1.5rem' })%>
+      <%- partial('../../components/icone', { name: social.key, color: social.color, size: '1.5em' })%>
     </a>
   <% }) %>
 </div>
