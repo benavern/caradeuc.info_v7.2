@@ -7,8 +7,10 @@
       <div class="box">
         <%- partial('../components/card/card', { items: [
             {
-              type: 'image',
-              title: post.title, image: post.thumbnail || post.featured_image || theme.default_header_img,
+              type: 'image-link',
+              link: url_for(post.path),
+              title: post.title,
+              image: post.thumbnail || post.featured_image || theme.default_header_img,
               small: `le ${date(post.date, 'DD/MM/YYYY')}` + (post.author ? ` par ${post.author}` : '')
             },
             { type: 'text', text: truncate(post.excerpt || strip_html(post.content), {length: 150})},
