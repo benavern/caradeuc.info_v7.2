@@ -97,38 +97,6 @@
   smoothScroll(hashOnInit, true)
 
   /**
-   * Make the Aside sticky when possible
-   */
-  var stickyAsideWrapper = document.querySelector('.post-aside')
-  var stickyAside = document.querySelector('.post-aside .sharers')
-  var nav = document.querySelector('#navigation')
-  var header = document.querySelector('#page-header')
-
-  function handleStickyAside () {
-    // if no aside to stick, do nothing
-    if (!stickyAsideWrapper) return
-
-    // if scrolled to bottom, do nothing
-    if (window.scrollY >= document.body.scrollHeight - window.innerHeight) return
-
-    var isDesktop = document.body.offsetWidth >= 768
-    var navHeight = nav.offsetHeight // because it can change
-    var headerHeight = header.offsetHeight
-    var sticky = window.scrollY > (headerHeight - navHeight)
-
-    if (isDesktop && sticky) {
-      stickyAside.style.transform = 'translateY(' + (window.scrollY - headerHeight + navHeight) + 'px)'
-    }
-    else if (!isDesktop || isDesktop && window.scrollY === 0) {
-      stickyAside.style.transform = 'unset'
-    }
-  }
-
-  window.addEventListener('scroll', handleStickyAside)
-  window.addEventListener('resize', handleStickyAside)
-  handleStickyAside()
-
-  /**
    * Pop elements on the page
    */
 
