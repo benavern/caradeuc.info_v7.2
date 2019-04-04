@@ -47,18 +47,21 @@
         .color-white
           text-shadow: 0 0 .2em rgba($black, .5)
 
+    &.color-switcher
+      align-items: center
+
 body
   &.scrolled
     #navigation
       padding: 0
-      background-color: rgba($white, .95)
+      background-color: var(--white)
       box-shadow: 0 0 1rem rgba($black, .3)
 
       .grid-item
         &.nav-wrapper
           .color-white
             text-shadow: none
-            color: $gray-dark
+            color: var(--gray-dark)
 
         &.nav-toggle-wrapper
           .icon-menu
@@ -99,7 +102,7 @@ body
               justify-content: center
 
               .btn
-                color: $white
+                color: var(--white)
                 margin: 1rem 0
                 width: 100%
                 text-align: center

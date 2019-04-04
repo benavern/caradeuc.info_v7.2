@@ -21,7 +21,7 @@ Je ne savais pas trop quoi faire avec et puis je me suis souvenu d'une présenta
 
 Et bien le sujet était tout trouvé du coup!
 
-Je me suis dit que je reprendrais le principe du jeu mais en le faisant fonctionner dans le navigateur. Pour ça il fallait égallement que je comprenne comment fonctionne le [canvas HTML5](https://developer.mozilla.org/fr/docs/Web/HTML/Element/canvas), un des moyens de faure du rendu 2d assez facilement sur le web.
+Je me suis dit que je reprendrais le principe du jeu mais en le faisant fonctionner dans le navigateur. Pour ça il fallait également que je comprenne comment fonctionne le [canvas HTML5](https://developer.mozilla.org/fr/docs/Web/HTML/Element/canvas), un des moyens de faire du rendu 2d assez facilement sur le web.
 
 ## Bien, alors ça a donné quoi ?
 
@@ -37,11 +37,11 @@ Je me suis inspiré d'un fonctionnement que j'avais déjà vu sur Unity3d.
 
 En gros, il y a une methode update, qui s'appelle elle même à une vitesse folle (toutes les frames), grâce à la fonction [requestAnimationFrame](https://developer.mozilla.org/fr/docs/Web/API/Window/requestAnimationFrame)
 
-Cette methode va dessiner tous les éléments sur le canvas (player, ennemis, missiles, ...) après avoir effacé tout ce quelle avait fait à la frame précédente.
+Cette methode va dessiner tous les éléments sur le canvas (player, ennemis, missiles, ...) après avoir effacé tout ce qu'elle avait fait à la frame précédente.
 
 Une classe se charge donc de gérer la logique du jeu, le canvas, les objets à dessiner. Avec des eventListeners on peut détecter les touches du clavier et mettre à jour en fonction chaque objet du jeu.
 
-Quelques algorythmes plus tard, on obtien un jeu plus ou moins fonctionnel.
+Quelques algorythmes plus tard, on obtient un jeu plus ou moins fonctionnel.
 
 ## OK, et alors ça sert à quoi tout ça ?
 

@@ -84,7 +84,7 @@ et ajoutez en dessous ce block:
 
 Une fois le fichier enregistré, vous pouvez retourner voir votre code. Il aura tellement la classe que vous ne voudrez plus revenir à une police plus banale.
 
-N'hésitez pas à jouer un peu avec le block de paramètres que vous venez de coller. C'est le réglage que j'utilise personnelement tous les jours mais il se peut que vous trouviez une combinaison qui vous conviendra encore mieux.
+N'hésitez pas à jouer un peu avec le block de paramètres que vous venez de coller. C'est le réglage que j'utilise personnellement tous les jours mais il se peut que vous trouviez une combinaison qui vous conviendra encore mieux.
 
 ---
 

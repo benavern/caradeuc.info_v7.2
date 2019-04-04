@@ -27,11 +27,11 @@ Et bien c'est exactement ce qui m'est arrivé récemment!
 
 Ooooh pas si vite copain... Laisse moi m'expliquer!
 
-En fait, je me disais : j'ai en tête quelques outils qui pourraient être pratiques à avoir dans mon terminal, mais je ne sais pas comment les mettre en place. En plus le bash ça va 2 min mais je trouve que c'est quand même pas le language le plus sexy du monde quoi...
+En fait, je me disais : j'ai en tête quelques outils qui pourraient être pratiques à avoir dans mon terminal, mais je ne sais pas comment les mettre en place. En plus le bash ça va 2 min mais je trouve que c'est quand même pas le langage le plus sexy du monde quoi...
 
-Du coup j'ai réfléchit et me suis dit qu'il fallait que ça fonctionne sur mes 2 OS principaux:
+Du coup j'ai réfléchi et me suis dit qu'il fallait que ça fonctionne sur mes 2 OS principaux:
 
-* Linux sur mon PC fix à l'appart et mon PC portable perso
+* Linux sur mon PC fixe à l'appart et mon PC portable perso
 * Windows (eh oui ...) au boulot
 
 **NodeJs ça serait parfait non ?** Je connais déjà le javascript, il peut tourner sur ces 2 OS et avec npm je dois pouvoir trouver mon bonheur ...
@@ -75,4 +75,4 @@ Mmmmh disons que je considère mon POC validé, la suite au prochain épisode ;-
 
 ---
 
-*En espérant que cet article vous plait, n'ésitez pas à le partager et/ou à laisser un commentaire!*
+*En espérant que cet article vous plait, n'hésitez pas à le partager et/ou à laisser un commentaire!*
