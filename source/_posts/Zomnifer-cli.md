@@ -12,7 +12,7 @@ thumbnail: https://raw.githubusercontent.com/benavern/zomnifer-cli/master/screen
 
 Salut les amis!
 
-Souvenez vous, j'ai dit il y a peu que j'explorais un peu le [développement d'applications CLI (command-line-interface)](/2018/10/01/Coffee-Break-cli/) via nodejs. Et bien aujourd'hui je vous présente un petit projet que j'ai développé grâce à ce que j'ai appri.
+Souvenez vous, j'ai dit il y a peu que j'explorais un peu le [développement d'applications CLI (command-line-interface)](/2018/10/01/Coffee-Break-cli/) via nodejs. Et bien aujourd'hui je vous présente un petit projet que j'ai développé grâce à ce que j'ai appris.
 
 J'ai nommé **ZOMNIFER CLI** ([npm](https://www.npmjs.com/package/zomnifer-cli), [github](https://github.com/benavern/zomnifer-cli))
 
@@ -22,7 +22,7 @@ C'est un petit programme que [j'avais déjà développé](https://github.com/ben
 
 Pour faire bref, c'est un utilitaire qui permet d'éteindre, redémarrer, mettre en veille son ordinateur, ou encore d'afficher une notification personnalisée. Tout ceci de manière différée!
 
-A l'époque je l'avais fait avecc une interface graphique, cette dois c'est une interface en ligne de commande :-)
+A l'époque je l'avais fait avec une interface graphique, cette fois c'est une interface en ligne de commande :-)
 
 ## Ah pas mal, et ça ressemble à quoi ?
 
