@@ -7,8 +7,8 @@ tags:
   - cms
   - netlify
   - site
-featured_image: /images/uploads/capture-d-écran-du-2019-04-16-22.35.47.png
-thumbnail: /images/uploads/capture-d-écran-du-2019-04-16-22.35.47.png
+featured_image: /images/uploads/capture-d-écran-du-2019-04-16-23.01.26.png
+thumbnail: /images/uploads/capture-d-écran-du-2019-04-16-23.01.26.png
 ---
 Salut la compagnie!
 
@@ -22,13 +22,17 @@ Aujourd'hui, je vous parle d'un truc qui - je pense - va me permettre de venir v
 
 Vous le savez peut-être, j'utilise un générateur de sites statiques pour générer ce site ([HEXO](https://hexo.io)) et je l'héberge sur [Netlify](https://www.netlify.com). C'est plus sécurisé qu'un blog en PHP, nodeJs ou autres mais ça oblige à éditer les articles directement dans un éditeur de code.
 
-Vous me connaissez : j'aime bien bidouiller, peut-être d'ailleurs un peu trop... Ce qui me vaut de mettre parfois plusieurs heures avant d'achever l’écriture d'un article au lieux de 15 ou 30 minutes. Pourquoi ? Bah je bidouille pardi! Je ne peux pas m’empêcher, puisque je suis dans le code de changer un peu de SASS par ci, un peu de JS par là ... Je perd un temps fou à faire tout ça à chaque fois, ce qui finit par me rebuter quand j'ai une nouvelle idée d'article.
+Vous me connaissez : j'aime bien bidouiller, peut-être d'ailleurs un peu trop... Ce qui me vaut de mettre parfois plusieurs heures avant d'achever l’écriture d'un article au lieux de 15 ou 30 minutes. Pourquoi ? Bah je bidouille pardi! Je ne peux pas m’empêcher, puisque je suis dans le code, de changer un peu de SASS par ci ou un peu de JS par là ... Je perd un temps fou à faire tout ça à chaque fois, ce qui finit par me rebuter quand j'ai une nouvelle idée d'article.
 
-## Ah lala, bon et ça fait quoi alors ?
+## Ah la-la, bon et ça fait quoi alors ce CMS ?
 
 Comme son nom l'indique, [Netlify CMS](https://www.netlifycms.org) est un gestionnaire de contenu spécialement conçu pour les sites hébergés sur Netlify. 
 
-Après un peu de configuration, On est capable comme dans nimporte quel CMS d'écrire des articles via une interface dans le navigateur.
+Après un peu de configuration, on est capable comme dans n'importe quel CMS d'écrire des articles via une interface dans le navigateur.
+
+Ça ressemble à ça:
+
+![aperçu Netlify CMS](/images/uploads/capture-d-écran-du-2019-04-16-23.01.26.png "aperçu Netlify CMS")
 
 ## Cool !
 
@@ -36,7 +40,7 @@ Ouais, d'ailleurs j'avoue que cet article est aussi un test car c'est le premier
 
 J’espère que ça marchera, que je reviendrai plus souvent et que ça vous plaira de me lire.
 
----
+- - -
 
 Sur ce, je vous dis à la prochaine!
 
