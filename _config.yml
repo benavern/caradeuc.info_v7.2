@@ -120,7 +120,7 @@ pwa:
         - /about/
         - /contact/ # offline behavior
         - /404/
-      posts: 10
+      posts: 3
     opts:
       networkTimeoutSeconds: 5
     routes:
