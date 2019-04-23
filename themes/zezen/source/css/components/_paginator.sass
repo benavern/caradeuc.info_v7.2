@@ -1,0 +1,25 @@
+.paginator
+  text-align: center
+  margin: 1rem 0
+
+  .page-number,
+  .extend,
+  .space
+    padding: .3rem .75rem
+    margin: 0 .1rem
+    font-weight: bold
+    display: inline-block
+
+  .page-number,
+  .extend
+
+    border: 1px solid var(--gray-lighter)
+    border-radius: .25em
+
+    &:hover
+      text-decoration: none
+      background-color: var(--gray-lighter)
+
+    &.current
+      background-color: $primary
+      color: $white

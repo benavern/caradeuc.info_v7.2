@@ -1,4 +1,4 @@
-<%- partial('partials/header', { title: 'Blog' }) %>
+<%- partial('partials/header', { title: `Blog (${page.current}/${page.total})` }) %>
 
 <div id="page-blog" class="page has-triangle has-triangle-after">
   <%- partial('./components/triangle', {color: 'white'}) %>

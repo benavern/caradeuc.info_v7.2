@@ -1,5 +1,5 @@
 <%
-  var posts = (posts || site.posts || []).sort('date', -1)
+  var posts = (posts || page.posts || []).sort('date', -1)
 %>
 <div class="grid">
   <% posts.each(function (post) { %>
@@ -20,3 +20,16 @@
     </div>
   <% }) %>
 </div>
+
+<% if (page.total > 1) { %>
+  <hr>
+
+  <div class="paginator">
+    <%-
+      paginator({
+        prev_text: '&lt; ',
+        next_text: ' &gt;'
+      })
+    %>
+  </div>
+<% } %>
