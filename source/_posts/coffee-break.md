@@ -64,7 +64,7 @@ npm run build && npm start
 
 > Et Bim!
 
-![Premier lancement](premier_lancement.jpeg)
+![Premier lancement](/images/uploads/premier_lancement.jpeg)
 
 ### Personnaliser
 
@@ -108,7 +108,7 @@ export default {
 
 Comme vous l'avez surement remarqué, dans le template il y a uniquement des composants fournis par vuido, **aucun tag html ne peut être utilisé**.
 
-![modif1](modif1.jpeg)
+![modif1](/images/uploads/modif1.jpeg)
 
 
 ## Conclusions

@@ -6,8 +6,8 @@ tags:
   - astuce
   - vscode
   - outils
-featured_image: capture.jpeg
-thumbnail: capture.jpeg
+featured_image: /images/uploads/capture.jpeg
+thumbnail: /images/uploads/capture.jpeg
 ---
 
 Bonjour les gens!
@@ -16,7 +16,7 @@ Me voici de retour avec un petit article dans lequel je vous explique comment in
 
 ## Montre nous d'abord à quoi ça ressemble...
 
-![capture](capture.jpeg)
+![capture](/images/uploads/capture.jpeg)
 
 ## Ouah mais ça sort d'où ça!
 
