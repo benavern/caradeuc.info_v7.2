@@ -1,0 +1,17 @@
+<%- partial('partials/header', { title: 'Blog' }) %>
+
+<div id="page-blog" class="page has-triangle has-triangle-after">
+  <%- partial('./components/triangle', {color: 'white'}) %>
+
+  <div class="container">
+    <h1>Bienvenue sur mon blog!</h1>
+
+    <p>C'est ici que je parle de ma vie, de programmation et de ce qui m'intéresse.</p>
+
+    <p>Vous pouvez voir les articles les plus récents ici ou <a href="/tags">parcourir les tags</a>.</p>
+
+    <hr>
+
+    <%- partial('partials/posts') %>
+  </div>
+</div>

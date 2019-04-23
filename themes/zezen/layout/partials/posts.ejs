@@ -1,8 +1,8 @@
 <%
-  var posts = posts || site.posts || []
+  var posts = (posts || site.posts || []).sort('date', -1)
 %>
 <div class="grid">
-  <% posts.sort('date', -1).each(function (post) { %>
+  <% posts.each(function (post) { %>
     <div class="grid-item s-2 m-3">
       <div class="box">
         <%- partial('../components/card/card', { items: [
