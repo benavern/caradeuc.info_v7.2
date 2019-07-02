@@ -4,8 +4,8 @@
 
 # Site
 title: Benjamin Caradeuc
-subtitle: Ingénieur & lead développeur web
-description: Benjamin Caradeuc | Ingénieur & lead développeur web
+subtitle: Ingénieur & développeur web
+description: Benjamin Caradeuc | Ingénieur & développeur web
 keywords: dévelopeur, web, ingénieur, web, projects
 author: Benjamin Caradeuc <benjamin@caradeuc.info>
 language: fr
@@ -13,8 +13,8 @@ timezone: Europe/Paris
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: https://benjamin.caradeuc.info
-# root: /
+url: https://benjamin.caradeuc.info
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -98,7 +98,7 @@ pwa:
     body:
       name: Benjamin Caradeuc
       short_name: Benjamin Caradeuc
-      description: Ingénieur & lead développeur web
+      description: Ingénieur & développeur web
       lang: fr
       icons:
         - src: /images/avatar.png
