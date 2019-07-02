@@ -5,6 +5,6 @@ thumbnail: header.jpg
 template: about
 ---
 
-Je ne suis **pas en recherche active**, mais reste à l'écoute d'opportunités qui pourraient me faire changer d'avis.
+Je suis aujourd'hui **en recherche active** pour un travail de développeur web (Vuejs ou ReactJS) sur Montpellier. N'hésitez pas à me contacter via le formulaire ou tout autre moyen que vous trouverez.
 
 <!-- En attendant, n'hésitez pas [télécharger mon CV](index/CV_Benjamin_Caradeuc.pdf) et à me [contacter](/contact). -->
