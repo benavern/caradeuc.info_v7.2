@@ -4,8 +4,7 @@ author: Benjamin Caradeuc
 date: 2019-07-08T20:49:13.077Z
 tags:
   - ma vie
-  - news
-  - ''
+  - new
 featured_image: /images/uploads/robin-garnier-wc07g25devc-unsplash-2000x1000.jpg
 thumbnail: /images/uploads/robin-garnier-wc07g25devc-unsplash-2000x1000.jpg
 ---
@@ -39,9 +38,13 @@ On doit donc déménager, trouver un appartement alors qu'on est pas sur place e
 
 Et bien après avoir quitté Rennes, non sans stresse et nostalgie, on a finit par y a arriver à Montpellier. Toutes nos affaires sont restées à Rennes dans un garage, on habite dans une sous-location jusqu'à fin septembre, on va à la plage tous les weekends et on enchaîne les bars et les restaurants.
 
+![Sarah et moi au Fitz Patrick à Montpellier](/images/uploads/img_20190628_182125-collage.jpg "Sarah et moi au Fitz Patrick à Montpellier")
+
 Bon, oui sinon je cherche du travail et je suis plutôt bien avancé. Je ne dirai rien pour le moment vu que je n'ai encore accepté aucune offre mais ici ce n'est pas vraiment un problème pour trouver un travail dans notre domaine. Même si c'est quand même le paradis pour les gens qui font du back ou du fullstack, on trouve quand même de bonnes opportunités quand on cherche bien dans le domaine du front...
 
-Grâce à quelques tests techniques, j'ai décroché de beaux entretiens et maintenant je suis entrain de finaliser tout ça. Une réponse est à prévoir avant la fin de la semaine je pense ...
+J'ai bossé sur quelques tests techniques (même la nuit o_O), j'ai décroché de beaux entretiens et maintenant je suis entrain de finaliser tout ça. Une réponse est à prévoir avant la fin de la semaine je pense ...
+
+![On bosse même la nuit ici](/images/uploads/img_20190626_231610-2000x1000.jpg "On bosse même la nuit ici")
 
 En parlant de tests techniques, j'ai choisi d'en faire un avec react et j'avoue m'être vraiment bien amusé avec ce framework que je ne connaissais que de nom et réputation. Quelques petits projets en react sont probablement à prévoir ici ^^.
 
