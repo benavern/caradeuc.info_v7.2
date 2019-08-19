@@ -129,3 +129,7 @@ pwa:
       - pattern: !!js/regexp /\//
         strategy: networkFirst
   priority: 5
+
+babelify:
+  presets:
+    - '@babel/preset-env'
