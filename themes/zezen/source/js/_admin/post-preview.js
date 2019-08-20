@@ -6,11 +6,11 @@ export default createClass({
 
     // header
     const img = entry.getIn(['data', 'featured_image'])
-    const featured_img = this.props.getAsset(img)
+    const featured_img = this.props.getAsset(img) || ''
     const title = entry.getIn(['data', 'title'])
     const author = entry.getIn(['data', 'author'])
     const date = entry.getIn(['data', 'date'])
-    const tags = entry.getIn(['data', 'tags'])
+    const tags = entry.getIn(['data', 'tags']) || []
 
     return h('div', { className: 'content' },
 
