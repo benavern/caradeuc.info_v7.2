@@ -10,7 +10,7 @@ tags:
 featured_image: /images/uploads/babelify.jpg
 thumbnail: /images/uploads/babelify.jpg
 ---
-C'est bien connu, le développement est fait pour répondre à des besoins. Et quand on se retrouve confronté à l'un d'eux, en bon développeur (~~fainéant~~), on cherche d'abord à savoir si un copain n'a pas  déjà eu le même problème à résoudre. Avec un peu de chance, il y aura déjà remédié par le développement d'un outil approprié.
+C'est bien connu, le développement est fait pour répondre à des besoins. Et quand on se retrouve confronté à l'un d'eux, en bon ~~fainéant~~ développeur, on cherche d'abord à savoir si un copain n'a pas  déjà eu le même problème à résoudre. Avec un peu de chance, il y aura déjà remédié par le développement d'un outil approprié.
 
 ## Oui d'accord mais où tu veux en venir exactement ?
 
@@ -20,32 +20,32 @@ Pour une fois, je me suis trouvé dans la situation où j'avais un besoin, perso
 
 Pas si vite, laisse moi t'expliquer!
 
-En gros je bossais sur un projet perso qui consiste en gros à développer un autre blog sur la même techno utilisée ici: [hexo](https://hexo.io)
+En gros je bossais sur un projet perso qui consiste à développer un autre blog sur la même techno utilisée ici: [hexo](https://hexo.io)
 
 J'avais déjà bien avancé sur la partie génération des pages en HTML, le design en CSS et je commençais à faire la partie JS. Tellement habitué au code plutôt moderne du travail, je me suis senti un peu limité. Habituellement j'écris de l'es6 avec des fonctionnalités réservées aux bundlers tels que webpack et compagnie, mais ce jour je n'avais le choix qu'entre ces 2 solutions :
 
 * Importer dans l'HTML chaque fichier créé en faisant bien gaffe à les mettre dans l'ordre.
-* Tout écrire dans le même fichier.
+* Tout écrire dans le même fichier JS.
 
-Le tout en étant également obligé de n'utiliser que du JS que le navigateur peut comprendre.
+Et tout ça en étant également obligé de n'utiliser que du JS que le navigateur peut comprendre.
 
 Frustrant non ?
 
-J'ai alors décidé de développer un [plugin](https://hexo.io/plugins/) pour combler ce manque, et être capable d'écrire du vrai JS comme on en fait de nos jours.
+C'est là que j'ai décidé de développer un [plugin](https://hexo.io/plugins/) hexo, pour combler ce manque et être capable d'écrire du vrai JS comme on en fait de nos jours.
 
 ## Cool! Ça ressemble à quoi alors ?
 
-Et bien à ça: **[hexo-renderer-babelify](https://www.npmjs.com/package/hexo-renderer-babelify)**
+À ça: **[hexo-renderer-babelify](https://www.npmjs.com/package/hexo-renderer-babelify)**
 
-Un plugin qu'il suffit d'installer sur son projet hexo et après un minimum de configuration, on peut utiliser tout ce que babel sait transformer. En prime, les imports et exports es6 sont possibles.
+C'est un package npm sous forme de plugin qu'il suffit d'installer sur son projet hexo et après un minimum de configuration, on peut coder en JS tout ce que babel sait transformer. En prime, les imports et exports es6 sont possibles !
 
-Pour l'installer : 
+Pour l'installer, rien de plus simple : 
 
 ```bash
 npm i hexo-renderer-babelify
 ```
 
-Pour le configurer, ça se passe dans le fichier `_config.yml` : 
+Question configuration, ça se passe dans le fichier `_config.yml` : 
 
 ```yml
 babelify:
@@ -66,7 +66,7 @@ Non ! Tous les fichiers js qui sont pris en compte par hexo (tous les fichiers o
 
 Il ne vous reste plus qu'à coder en es6, par exemple :
 
-```
+```js
 // app.js
 import hello from './_scripts/hello.js'
 
@@ -84,8 +84,8 @@ export default (name) => {
 
 En fait il y a 2 choses, et elles sont listées dans l'image là haut:
 
-* **[browserify](http://browserify.org/)** : Un outil capable de gérer les `require` et `module.exports` et créer un bundle final
-* **[babel](babeljs.io)** : utilisé ici via [babelify](https://www.npmjs.com/package/babelify) et qui transforme l'es6 en es5. Il traduit également les `import` en `require`, les `export default` en `module.exports`, et les `export` en `exports`...
+* **[browserify](http://browserify.org/)** : Un outil capable de gérer les `require` et `module.exports` et de créer un bundle final.
+* **[babel](babeljs.io)** : Utilisé ici via [babelify](https://www.npmjs.com/package/babelify) qui transforme l'es6 en es5. Il traduit également les `import` en `require`, les `export default` en `module.exports`, et les `export` en `exports`...
 
 ## Bravo, et maintenant ?
 
