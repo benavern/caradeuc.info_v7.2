@@ -37,11 +37,13 @@ N'oubliez pas de modifier le chemin vers votre fichier css. Si vous en avez plus
 
 ![Pendant](/images/uploads/capture-d’écran-de-2019-08-22-23-28-46.png "preview with styles")
 
-## CMS.registerPreviewTemplate
-
 On constate maintenant que notre style a changé (la police, les couleurs, etc...) mais la structure htlm n'étant pas la même c'est encore loin d'être ressemblant!
 
 C'est ici que la deuxième méthode entre en action:
+
+## CMS.registerPreviewTemplate
+
+Toujours dans le fichier html de la page admin, ajoutez cette ligne:
 
 ```js
 CMS.registerPreviewTemplate('posts', postPreviewTemplate)
@@ -72,7 +74,7 @@ Ici, pas de  bundler très compliqué ou autres, impossible d'utiliser JSX. Il f
 - La liste des attributs à ajouter au tag. **ATTENTION** : en react on mettra `className` plutôt que `class`.
 - ensuite c'est la liste des tags ou texts qui seront à mettre à l'intérieur du tag.
 
-Par exemple pour mon site, mon template d'article de bolg ressemble à ça :
+Pour mon site, mon template d'article de bolg ressemble à ça :
 
 ```js
 const postPreviewTemplate = createClass({
