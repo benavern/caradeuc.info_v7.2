@@ -50,11 +50,11 @@ CMS.registerPreviewTemplate('posts', postPreviewTemplate)
 ```
 Elle permet de modifier la structure html en lui passant un template. Le CMS étant écrit en react, il faudra que ce template soit un composant react. Heureusement le CMS nous donne suffisamment d'outils pour ça:
 
-### fonction `createClass` 
+### `createClass` 
 
 Une fonction qui prend en paramètre un objet sous la forme d'un composant react. Cet objet doit comprendre une méthode `render` qui retournera la version react du template.
 
-### props entry
+### `props entry`
 
 Pour récupérer les informations entrées dans le formulaire, vous devez utiliser la propriétés du composant `this.props.entry` qui expose une méthode `get`.
 
@@ -66,7 +66,7 @@ const title = entry.get([data, 'title'])
 
 ```
  
-###  h
+###  `h`
 
 Ici, pas de  bundler très compliqué ou autres, impossible d'utiliser JSX. Il faut donc créer le template noeud par noeud avec la methode `h`qui prend au moins 2 paramètres:
 
