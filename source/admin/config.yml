@@ -22,16 +22,121 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    # identifier_field: date
     label: "Post" # Used in the UI
     folder: "source/_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Author", name: "author", widget: "string", default: "Benjamin Caradeuc"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Featured Image", name: "featured_image", widget: "image"}
       - {label: "Featured Image thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: pages
+    label: Pages
+    files:
+      - label: "About"
+        name: about
+        file: "source/about/index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Featured Image", name: "featured_image", widget: "image"}
+          - {label: "Image", name: "thumbnail", widget: "image"}
+          - {label: "Template", name: "template", widget: "hidden", default: "about"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Contact"
+        name: contact
+        file: "source/contact/index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Featured Image", name: "featured_image", widget: "image"}
+          - {label: "Image", name: "thumbnail", widget: "image"}
+          - {label: "Template", name: "template", widget: "hidden", default: "contact"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Contact Success"
+        name: contact-success
+        file: "source/contact/success.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Featured Image", name: "featured_image", widget: "image"}
+          - {label: "Image", name: "thumbnail", widget: "image"}
+          - {label: "Sitemap", name: "sitemap", widget: "hidden", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Tags"
+        name: tags
+        file: "source/tags/index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Featured Image", name: "featured_image", widget: "image"}
+          - {label: "Image", name: "thumbnail", widget: "image"}
+          - {label: "Template", name: "template", widget: "hidden", default: "tags"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "404"
+        name: not_found
+        file: "source/404.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Featured Image", name: "featured_image", widget: "image"}
+          - {label: "Image", name: "thumbnail", widget: "image"}
+          - {label: "Template", name: "template", widget: "hidden", default: "404"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "data"
+    label: "Data"
+    editor:
+      preview: false
+    files:
+      - label: "Menu"
+        name: "menu"
+        file: "source/_data/menu.yml"
+        fields:
+          - label: Menu items
+            name: menuItems
+            widget: list
+            allow_add: false
+            fields:
+              - name: key
+                label: 'Key'
+                widget: string
+              - name: title
+                label: 'Title'
+                widget: string
+              - name: path
+                label: Path
+                widget: string
+              # - name: path
+              #   label: Path
+              #   widget: "relation"
+              #   collection: "posts"
+              #   searchFields: ["title", "author"]
+              #   valueField: "title"
+              #   displayFields: ["title", "author", "date"]
+
+      - label: "Social"
+        name: "social"
+        file: "source/_data/social.yml"
+        fields:
+          - label: Social
+            name: socialItems
+            widget: list
+            allow_add: false
+            fields:
+              - name: key
+                label: 'Key'
+                widget: string
+              - name: name
+                label: 'Name'
+                widget: string
+              - name: color
+                label: 'Color'
+                widget: color
+              - name: sharer_url
+                label: 'Sharer URL'
+                widget: string

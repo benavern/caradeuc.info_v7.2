@@ -44,7 +44,7 @@ export default createClass({
 
         h('div', { className: 'container' },
 
-          // contenu de la recette
+          // contenu de l'article
           h('article', { className: 'post-content', style: { margin: '.25rem', padding: '.5rem' } }, this.props.widgetFor('body'))
         )
       )
