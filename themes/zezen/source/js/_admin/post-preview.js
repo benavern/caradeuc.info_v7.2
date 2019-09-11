@@ -20,20 +20,22 @@ export default createClass({
 
         h('div', {className: 'container'},
           h('div', {},
-            h('h1', {}, title),
+            h('h1', { style: { textTransform: 'capitalize' } }, title),
 
-            h('div', {}, h('small', {}, h('b', {}, author))),
+            h('small', {}, h('b', {}, author)),
 
-            h('div', {}, h('small', {}, `le ${moment(date).format('DD/MM/YYYY')}`))
+            h('small', {}, ` le ${moment(date).format('DD/MM/YYYY')}`)
           ),
 
+          h('br', {}),
+
           h('div', {},
-            tags.map(tag => h('a', { className: 'btn btn-sm btn-border border-primary color-primary' }, tag))
+            tags.map(tag => h('a', { className: 'btn btn-sm btn-border border-primary color-primary', style: { marginRight: '.25rem' } }, tag))
           )
         )
       ),
 
-      // contenu de l'article'
+      // contenu de l'article
       h('div', { id: 'post', className: 'has-triangle' },
         // décoration
         h('svg', { className: 'triangle', viewBox: "0 0 100 100", preserveAspectRatio: "none" },
