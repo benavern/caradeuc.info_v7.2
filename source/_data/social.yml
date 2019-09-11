@@ -1,21 +1,22 @@
-- key: twitter
-  name: 'Twitter'
-  url: 'https://twitter.com/benavern'
-  color: '#55acee'
-  sharer_url: 'https://twitter.com/intent/tweet?url={url}'
+socialItems:
+  - key: twitter
+    name: 'Twitter'
+    url: 'https://twitter.com/benavern'
+    color: '#55acee'
+    sharer_url: 'https://twitter.com/intent/tweet?url={url}'
 
-- key: facebook
-  name: 'Facebook'
-  color: '#3b5999'
-  sharer_url: 'https://www.facebook.com/sharer.php?u={url}'
+  - key: facebook
+    name: 'Facebook'
+    color: '#3b5999'
+    sharer_url: 'https://www.facebook.com/sharer.php?u={url}'
 
-- key: github
-  name: 'Github'
-  url: 'https://github.com/benavern'
-  color: '#000'
+  - key: github
+    name: 'Github'
+    url: 'https://github.com/benavern'
+    color: '#000'
 
-- key: linkedin
-  name: 'LinkedIn'
-  url: 'https://www.linkedin.com/in/benjamincaradeuc/'
-  color: '#007bb5'
-  sharer_url: https://www.linkedin.com/shareArticle?mini=true&url={url}
+  - key: linkedin
+    name: 'LinkedIn'
+    url: 'https://www.linkedin.com/in/benjamincaradeuc/'
+    color: '#007bb5'
+    sharer_url: https://www.linkedin.com/shareArticle?mini=true&url={url}

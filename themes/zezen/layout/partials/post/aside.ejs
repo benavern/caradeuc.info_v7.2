@@ -3,7 +3,7 @@
     PARTAGE
   </div>
 
-  <% site.data.social.filter(s => !!s.sharer_url).forEach(social => { %>
+  <% site.data.social.socialItems.filter(s => !!s.sharer_url).forEach(social => { %>
     <a class="sharers-link grid-item xs-5 m-1"
         href="<%= social.sharer_url.replace('{url}', encodeURIComponent(page.permalink)) %>"
         title="Partager sur <%= social.name %>"

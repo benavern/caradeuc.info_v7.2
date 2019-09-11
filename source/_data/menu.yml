@@ -1,15 +1,16 @@
-- key: home
-  title: Accueil
-  path: /
+menuItems:
+  - key: home
+    title: Accueil
+    path: /
 
-- key: blog
-  title: Blog
-  path: /blog
+  - key: blog
+    title: Blog
+    path: /blog
 
-- key: about
-  title: A Propos
-  path: /about
+  - key: about
+    title: A Propos
+    path: /about
 
-- key: contact
-  title: Contact
-  path: /contact
+  - key: contact
+    title: Contact
+    path: /contact

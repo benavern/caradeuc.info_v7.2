@@ -20,7 +20,7 @@
 
       <div class="grid-item nav-wrapper">
         <nav>
-          <% site.data.menu.forEach(item => { %>
+          <% site.data.menu.menuItems.forEach(item => { %>
             <a href="<%- url_for(item.path) %>" class="btn btn-link
               <%= is_home() ? 'color-gray-dark' : 'color-white' %>
               <%= (is_current(item.path) || is_post() && item.path === '/blog') ? 'active' : ''%>">

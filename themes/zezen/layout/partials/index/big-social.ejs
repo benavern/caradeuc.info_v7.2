@@ -3,7 +3,7 @@
 
   <div class="container">
     <div class="grid">
-      <% site.data.social.filter(s => !!s.url).forEach((social, i, arr) => { %>
+      <% site.data.social.socialItems.filter(s => !!s.url).forEach((social, i, arr) => { %>
         <a href="<%= social.url %>"
             class="grid-item xs-<%= arr.length %> text-center no-decoration"
             title="Venez voir mon <%= social.name %>!">
