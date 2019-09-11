@@ -1,3 +1,4 @@
+import CMS from 'netlify-cms'
 import postPreviewTemplate from './_admin/post-preview'
 
 // styles
