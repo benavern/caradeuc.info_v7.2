@@ -5,7 +5,9 @@ date: 2019-09-10T21:58:51.982Z
 tags:
   - css
   - sass
+  - input
   - tips
+  - no-js
 featured_image: /images/uploads/capture-d-écran-du-2019-09-10-23.59.33.png
 thumbnail: /images/uploads/capture-d-écran-du-2019-09-10-23.59.33.png
 ---
