@@ -1,5 +1,4 @@
 import handleScrolled from './_scripts/scrolled'
-import handleInputFields from './_scripts/inputFields'
 import handleToggleMenu from './_scripts/toggleMenu'
 import handleSmoothScroll from './_scripts/smoothScroll'
 import handlePop from './_scripts/pop'
@@ -9,7 +8,6 @@ import handleColorMode from './_scripts/colorMode'
 
 function init () {
   handleScrolled()
-  handleInputFields()
   handleToggleMenu()
   handleSmoothScroll()
   handlePop()

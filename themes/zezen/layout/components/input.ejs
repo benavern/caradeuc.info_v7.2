@@ -4,19 +4,19 @@
   var icone = icone || false
 %>
 
-<div class="input">
-  <label for="<%= name %>">
+<div class="mat-input">
+    <% if (type === 'textarea') { %>
+    <textarea class="mat-input-field" id="<%= name %>" name="<%= name %>" required placeholder=" "></textarea>
+
+  <% } else { %>
+    <input class="mat-input-field" id="<%= name %>" type="<%= type %>" name="<%= name %>" required placeholder=" ">
+  <% } %>
+
+  <label class="mat-input-label" for="<%= name %>">
     <% if (icone) { %>
       <%- partial('../components/icone', { name: icone, color: '#bfbfbf' }) %>
     <% } %>
 
     <%= label %>
   </label>
-
-  <% if (type === 'textarea') { %>
-    <textarea id="<%= name %>" name="<%= name %>" required></textarea>
-
-  <% } else { %>
-    <input id="<%= name %>" type="<%= type %>" name="<%= name %>" required>
-  <% } %>
 </div>
