@@ -4,7 +4,6 @@ import handleSmoothScroll from './_scripts/smoothScroll'
 import handlePop from './_scripts/pop'
 import handleMyAge from './_scripts/myAge'
 import handleZoom from './_scripts/zoom'
-import handleColorMode from './_scripts/colorMode'
 
 function init () {
   handleScrolled()
@@ -13,7 +12,6 @@ function init () {
   handlePop()
   handleMyAge()
   handleZoom()
-  handleColorMode()
 }
 
 document.addEventListener("DOMContentLoaded", init)

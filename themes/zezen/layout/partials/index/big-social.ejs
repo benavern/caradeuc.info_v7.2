@@ -5,12 +5,12 @@
     <div class="grid">
       <% site.data.social.socialItems.filter(s => !!s.url).forEach((social, i, arr) => { %>
         <a href="<%= social.url %>"
-            class="grid-item xs-<%= arr.length %> text-center no-decoration color-gray font-bold"
+            class="grid-item xs-<%= arr.length %> text-center no-decoration color-gray-light font-bold"
             title="Venez voir mon <%= social.name %>!">
           <div class="box pop pop-bottom">
             <%- partial('../../components/icone', { name: social.key, size: '3em'}) %>
 
-            <div class="social-label">
+            <div class="social-label text-gradient">
               <%= social.name %>
             </div>
           </div>

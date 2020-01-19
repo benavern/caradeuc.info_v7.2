@@ -42,13 +42,17 @@
         justify-content: flex-end
 
         .btn.active
-          border-bottom: .15em solid $primary
+          // border-bottom: .15em solid $primary
+          position: relative
 
-        .color-white
-          text-shadow: 0 0 .2em rgba($black, .5)
-
-    &.color-switcher
-      align-items: center
+          &::after
+            content: ''
+            position: absolute
+            height: .1em
+            width: 100%
+            bottom: 0
+            left: 0
+            background: $primary-gradient
 
 body
   &.scrolled
@@ -62,11 +66,6 @@ body
           .color-white
             text-shadow: none
             color: var(--gray-dark)
-
-        &.nav-toggle-wrapper
-          .icon-menu
-            path
-              fill: #404040 !important
 
   @media (max-width: $medium) // mobile
     &.menu-visible
@@ -83,7 +82,7 @@ body
             left: 0
             width: 100%
             height: 100%
-            background-color: $primary
+            background-color: $white
             font-size: 1.5rem
 
             .nav-close-wrapper

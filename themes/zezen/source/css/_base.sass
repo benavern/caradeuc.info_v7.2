@@ -8,7 +8,8 @@ html
 
   background: var(--gray-light) // matches the footer bg color
 
-  &.dark-mode
+@media (prefers-color-scheme: dark)
+  html
     --white: #{$black}
     --gray-lighter: #{$gray-darker}
     --gray-light: #{$gray-dark}
@@ -17,26 +18,31 @@ html
     --black: #{$white}
 
 *, *:before, *:after
-    box-sizing: border-box
+  box-sizing: border-box
 
 body
-    font-family: $text-font
-    color: var(--gray-darker)
-    background-color: var(--white)
-    line-height: 1.6
-    width: 100%
-    overflow-x: hidden
+  font-family: $text-font
+  color: var(--gray-darker)
+  background-color: var(--white)
+  line-height: 1.6
+  width: 100%
+  overflow-x: hidden
 
 h1, h2, h3, h4, h5, h6
-    font-family: $title-font
-    font-weight: bold
+  font-family: $title-font
+  font-weight: bold
 
 a
-    color: $primary
+  color: $primary
+
+  &:not(.btn)
+    background-image: $primary-gradient
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
     text-decoration: none
 
-    &:not(.no-decoration):hover
-        text-decoration: underline
+  &:not(.no-decoration):hover
+    text-decoration: underline
 
 hr
   border: none
@@ -60,5 +66,5 @@ table
     color: var(--white)
 
 ::selection
-    background: rgba($primary, .7)
-    color: var(--white)
+  background: rgba($primary, .7)
+  color: var(--white)

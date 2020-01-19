@@ -7,17 +7,6 @@
         </a>
       </div>
 
-      <div class="grid-item color-switcher">
-        <%- partial('../components/icone', { name: 'light-mode', size: '1.5em' }) %>
-
-        <label for="toggle-mode" class="switch">
-          <input type="checkbox" name="toggle-mode" id="toggle-mode">
-          <span class="switch--slider"></span>
-        </label>
-
-        <%- partial('../components/icone', { name: 'dark-mode', size: '1.5em' }) %>
-      </div>
-
       <div class="grid-item nav-wrapper">
         <nav>
           <% site.data.menu.menuItems.forEach(item => { %>
@@ -29,14 +18,14 @@
           <% }) %>
         </nav>
         <div class="nav-close-wrapper">
-          <a href="#" class="btn btn-link color-white no-decoration">
+          <a href="#" class="btn btn-link color-primary no-decoration">
             <%- partial('../components/icone', { name: 'close', size: '2em' }) %>
           </a>
         </div>
       </div>
 
       <div class="grid-item nav-toggle-wrapper">
-        <a href="#" class="btn btn-link color-white no-decoration">
+        <a href="#" class="btn btn-link color-primary no-decoration">
           <%- partial('../components/icone', { name: 'menu', size: '2em' }) %>
         </a>
       </div>
