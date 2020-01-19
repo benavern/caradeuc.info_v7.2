@@ -110,25 +110,25 @@ pwa:
       theme_color: '#16a085'
       background_color: '#f7f7f7'
 
-  serviceWorker:
-    path: /sw.js
-    preload:
-      urls:
-        - /
-        - /blog/
-        - /tags/
-        - /about/
-        - /contact/ # offline behavior
-        - /404/
-      posts: 3
-    opts:
-      networkTimeoutSeconds: 5
-    routes:
-      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
-        strategy: cacheFirst
-      - pattern: !!js/regexp /\//
-        strategy: networkFirst
-  priority: 5
+  # serviceWorker:
+  #   path: /sw.js
+  #   preload:
+  #     urls:
+  #       - /
+  #       - /blog/
+  #       - /tags/
+  #       - /about/
+  #       - /contact/ # offline behavior
+  #       - /404/
+  #     posts: 3
+  #   opts:
+  #     networkTimeoutSeconds: 5
+  #   routes:
+  #     - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+  #       strategy: cacheFirst
+  #     - pattern: !!js/regexp /\//
+  #       strategy: networkFirst
+  # priority: 5
 
 babelify:
   presets:
