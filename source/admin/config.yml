@@ -20,6 +20,8 @@ media_folder: "source/images/uploads"
 # The src attribute for uploaded media will begin with /images/uploads
 public_folder: "/images/uploads"
 
+locale: 'fr'
+
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
