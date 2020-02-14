@@ -1,128 +1,158 @@
 timelines:
-  # Section Expériences pro
-  - title: Expériences professionnelles
-    icon: work
-    items:
-      - name: Ingénieur (Lead) Développeur Web
-        period: "[Octobre 2016 - Juin 2019]"
+  - items:
+      - description: |-
+          Plateforme sécurisée d’échanges pour la télé-expertise
+
+          * Développement front & back
+          * Mise en place scrum
+          * Mise en place CI/CD
+          * Introduction à Gitflow
+        establishment: Rofim (KLANIK)
+        location: Montpellier (34)
+        name: Ingénieur Développeur Web Fullstack
+        period: '[Juillet 2019 - Janvier 2020]'
+        tags:
+          - color: orange
+            name: HTML5
+          - color: blue
+            name: CSS3
+          - color: yellow
+            name: Javascript
+          - color: red
+            name: Angular 8
+          - color: green
+            name: NodeJs
+          - color: violet
+            name: MongoDb
+      - description: |-
+          * Maintenance évolutive
+          * Conception architecture logicielle
+          * Mise en oeuvre d'un nouveau portail
+          * Refonte des autres portails
         establishment: ORANGE WebTV (SII)
         location: Rennes (35)
-        description: "* Maintenance évolutive\n* Conception architecture logicielle\n* Mise en oeuvre d'un nouveau portail\n* Refonte des autres portails"
+        name: Ingénieur (Lead) Développeur Web
+        period: '[Octobre 2016 - Juin 2019]'
         tags:
-          - name: HTML5
-            color: orange
-          - name: CSS3
-            color: blue
-          - name: Javascript
-            color: yellow
-          - name: VueJs
-            color: green
-          - name: NodeJs
-            color: green
-
-      - name: Ingénieur Développeur Web
-        period: "[Février 2017 - Mars 2017]"
+          - color: orange
+            name: HTML5
+          - color: blue
+            name: CSS3
+          - color: yellow
+            name: Javascript
+          - color: green
+            name: VueJs
+          - color: green
+            name: NodeJs
+      - description: Refonte d'un module 3D interactif
         establishment: La boutonnière (SII)
         location: Rennes (35)
-        description: Refonte d'un module 3D interactif
+        name: Ingénieur Développeur Web
+        period: '[Février 2017 - Mars 2017]'
         tags:
-          - name: HTML5
-            color: orange
-          - name: CSS3
-            color: blue
-          - name: Javascript
-            color: yellow
-          - name: WebGL
-            color: red
-
-      - name: Ingénieur Développeur Web
-        period: "[Novembre 2016 - Février 2017]"
+          - color: orange
+            name: HTML5
+          - color: blue
+            name: CSS3
+          - color: yellow
+            name: Javascript
+          - color: red
+            name: WebGL
+      - description: >-
+          Maintenance d'une application mobile hybride pour le compte d'un
+          opérateur téléphonique péruvien, en collaboration avec des
+          développeurs étrangers (Pérou, Inde, USA, Israël)
         establishment: AMDocs (SII)
         location: Rennes (35)
-        description: Maintenance d'une application mobile hybride pour le compte d'un opérateur téléphonique péruvien, en collaboration avec des développeurs étrangers (Pérou, Inde, USA, Israël)
+        name: Ingénieur Développeur Web
+        period: '[Novembre 2016 - Février 2017]'
         tags:
-          - name: HTML5
-            color: orange
-          - name: CSS3
-            color: blue
-          - name: Javascript
-            color: yellow
-          - name: AngularJs 1.5
-            color: red
-          - name: Anglais professionnel
-            color: violet
-
-      - name: Développeur Web (Alternance)
-        period: "[Septembre 2015 - Septembre 2016]"
+          - color: orange
+            name: HTML5
+          - color: blue
+            name: CSS3
+          - color: yellow
+            name: Javascript
+          - color: red
+            name: AngularJs 1.5
+          - color: violet
+            name: Anglais professionnel
+      - description: >-
+          Alternance pendant ma formation de Master 2 "Chef de projet numérque"
+          à l'IMIE de Rennes. Maintenance de code et conception de nouvelles
+          fonctionnalités pour les produits de Dolmen Technologies.
         establishment: Dolmen Technologies
         location: Rennes (35)
-        description: Alternance pendant ma formation de Master 2 "Chef de projet numérque" à l'IMIE de Rennes. Maintenance de code et conception de nouvelles fonctionnalités pour les produits de Dolmen Technologies.
+        name: Développeur Web (Alternance)
+        period: '[Septembre 2015 - Septembre 2016]'
         tags:
-          - name: HTML5
-            color: orange
-          - name: CSS3
-            color: blue
-          - name: Javascript
-            color: yellow
-          - name: BackbneJs + MarionetteJs
-            color: red
-          - name: PHP 5
-            color: violet
-          - name: Drupal 7
-            color: blue
-
-      - name: Développeur Web (Stagiaire)
-        period: "[Avril 2014 - Août 2014]"
+          - color: orange
+            name: HTML5
+          - color: blue
+            name: CSS3
+          - color: yellow
+            name: Javascript
+          - color: red
+            name: BackbneJs + MarionetteJs
+          - color: violet
+            name: PHP 5
+          - color: blue
+            name: Drupal 7
+      - description: >-
+          Développement d’une interface graphique complexe et dynamique en HTML5
+          pour remplacement des interfaces existantes développées en FLASH.
+          (Proof of concept)
         establishment: ENENSYS Technologies
         location: Rennes (35)
-        description: Développement d’une interface graphique complexe et dynamique en HTML5 pour remplacement des interfaces existantes développées en FLASH. (Proof of concept)
+        name: Développeur Web (Stagiaire)
+        period: '[Avril 2014 - Août 2014]'
         tags:
-          - name: HTML5
-            color: orange
-          - name: CSS3
-            color: blue
-          - name: Javascript
-            color: yellow
-          - name: AngularJs 1.3
-            color: red
-
-  # Section formations
-  - title: Formations
-    icon: school
-    items:
-      - name: Master 2 Chef de projet en conception de systèmes informatiques
-        period: "[Septembre 2015 - Septembre 2016]"
+          - color: orange
+            name: HTML5
+          - color: blue
+            name: CSS3
+          - color: yellow
+            name: Javascript
+          - color: red
+            name: AngularJs 1.3
+    title: Expériences professionnelles
+  - items:
+      - description: Master 2 en alternance dans le domaine de l'informatique.
         establishment: IMIE
         location: Rennes (35)
-        description: Master 2 en alternance dans le domaine de l'informatique.
+        name: Master 2 Chef de projet en conception de systèmes informatiques
+        period: '[Septembre 2015 - Septembre 2016]'
         tags:
-          - name: Développement
-            color: blue
-          - name: Management
-            color: red
-          - name: Systèmes & réseaux
-            color: orange
-
-      - name: Diplôme d'ingénieur généraliste
-        period: "[Septembre 2008 - Juin 2014]"
+          - color: blue
+            name: Développement
+          - color: red
+            name: Management
+          - color: orange
+            name: Systèmes & réseaux
+      - description: >-
+          Orientation personnelle vers l'informatique après 2 modules
+          Informatiques à l'école.
         establishment: ENIB
         location: Brest (29)
-        description: Orientation personnelle vers l'informatique après 2 modules Informatiques à l'école.
+        name: Diplôme d'ingénieur généraliste
+        period: '[Septembre 2008 - Juin 2014]'
         tags:
-          - name: Informatique
-            color: orange
-          - name: Électronique
-            color: violet
-          - name: Mécatronique
-            color: yellow
-
-      - name: Baccalauréat STI Génie Électrotechnique
-        period: "[Septembre 2005 - Juin 2009]"
+          - color: orange
+            name: Informatique
+          - color: violet
+            name: Électronique
+          - color: yellow
+            name: Mécatronique
+      - description: >-
+          Baccalauréat Sciences et Technologies Industrielles génie
+          Électrotechnique. **Mention Bien**
         establishment: Lycée Brequigny
         location: Rennes (35)
-        description: Baccalauréat Sciences et Technologies Industrielles génie Électrotechnique. **Mention Bien**
+        name: Baccalauréat STI Génie Électrotechnique
+        period: '[Septembre 2005 - Juin 2009]'
         tags:
-          - name: Informatique industrielle
-            color: red
-          - name: Énergies renouvelables
-            color: green
+          - color: red
+            name: Informatique industrielle
+          - color: green
+            name: Énergies renouvelables
+    title: Formations
