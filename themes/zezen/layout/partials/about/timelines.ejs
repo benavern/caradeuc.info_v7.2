@@ -1,0 +1,35 @@
+<% var timelines = site.data.about.timelines || [] %>
+
+<div id="timelines">
+  <% for(const timeline of timelines) { %>
+    <hr>
+
+    <div class="timeline">
+      <h1><%= timeline.title %></h1>
+
+      <div class="timeline__content">
+        <% for(const item of timeline.items) { %>
+          <div class="timeline__item pop pop-bottom">
+            <div class="timeline__item-content">
+              <h2><%= item.name %></h2>
+
+              <h4 class="color-gray"><%= item.period %></h4>
+
+              <small class="text-gradient"><%= item.establishment %> | <%= item.location %></small>
+
+              <div class="timeline__item-description">
+                <%- markdown(item.description)  %>
+              </div>
+
+              <div class="timeline__item-tags">
+                <% for(const tag of item.tags) { %>
+                  <span class="tag-item bg-<%= tag.color || 'gray' %> color-white"><%= tag.name %></span>
+                <% } %>
+              </div>
+            </div>
+          </div>
+        <% } %>
+      </div>
+    </div>
+  <% } %>
+</div>

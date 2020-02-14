@@ -1,0 +1,90 @@
+$timeline-line-width: .25rem
+$timeline-dot-width: 2rem
+
+
+#page-about
+  #timelines
+    margin: 2rem 0
+
+    .timeline
+      h2, h3, h4
+        margin: 0
+
+      &__content
+        position: relative
+        padding: 1rem 0
+
+        // vertical bar
+        &::before
+          content: ''
+          position: absolute
+          top: 0
+          left: 0
+          height: 100%
+          width: $timeline-line-width
+          background-color: var(--black)
+
+          @media (min-width: $medium)
+            left: calc(50% - #{$timeline-line-width/2})
+
+      &__item
+        position: relative
+        margin: 0 0 2rem 3rem
+
+        // dot
+        &::before
+          content: ''
+          position: absolute
+          top: 2rem
+          left: calc(-4rem + #{$timeline-line-width/2})
+          height: $timeline-dot-width
+          width: $timeline-dot-width
+          border-radius: 50%
+          background-color: $white
+          border: .25rem solid $primary
+
+        // arrow
+        &::after
+          content: ''
+          position: absolute
+          top: 2rem
+          left: -2rem
+          width: 0
+          height: 0
+          border: 1rem solid transparent
+          border-right-color: var(--gray-lighter)
+
+        @media (min-width: $medium)
+          width: calc(50% - 3rem)
+
+          &:nth-child(2n)
+            margin-left: 0
+            margin-right: calc(50% + 3rem)
+
+            &::before
+              left: calc(100% + 2rem)
+
+            &::after
+              left: 100%
+              border-right-color: transparent
+              border-left-color: var(--gray-lighter)
+
+          &:nth-child(2n + 1)
+            margin-right: 0
+            margin-left: calc(50% + 3rem)
+
+        &-content
+          padding: 1rem 1rem .5rem
+          background-color: var(--gray-lighter)
+          box-shadow: 0 0 2rem rgba($gray, .1)
+          border-radius: .5rem
+
+        &-tags
+          margin: 1rem 0
+
+          .tag-item
+            display: inline-block
+            padding: .25em .75em
+            font-size: .7rem
+            border-radius: .25em
+            box-shadow: 0 0 .25em rgba($black, .3)
