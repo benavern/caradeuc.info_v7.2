@@ -8,7 +8,7 @@ menuItems:
     path: /blog
 
   - key: about
-    title: A Propos
+    title: Parcours
     path: /about
 
   - key: contact
