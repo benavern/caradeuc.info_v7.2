@@ -142,3 +142,52 @@ collections:
               - name: sharer_url
                 label: 'Sharer URL'
                 widget: string
+
+      - label: CV
+        name: about
+        file: "source/_data/about.yml"
+        fields:
+          - label: Timelines
+            name: timelines
+            widget: list
+            fields:
+              - name: title
+                label: Titre
+                widget: string
+              - name: items
+                label: items
+                widget: list
+                fields:
+                  - name: name
+                    label: Name
+                    widget: string
+                  - name: period
+                    label: Period
+                    widget: string
+                  - name: establishment
+                    label: Establishment
+                    widget: string
+                  - name: location
+                    label: Location
+                    widget: string
+                  - name: description
+                    label: Description
+                    widget: markdown
+                  - name: tags
+                    label: Tags
+                    widget: list
+                    fields:
+                      - name: name
+                        label: Name
+                        widget: string
+                      - name: color
+                        label: Color
+                        widget: select
+                        options:
+                          - green
+                          - yellow
+                          - orange
+                          - blue
+                          - red
+                          - violet
+                          - gray
