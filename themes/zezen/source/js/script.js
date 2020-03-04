@@ -4,7 +4,9 @@ import handleSmoothScroll from './_scripts/smoothScroll'
 import handlePop from './_scripts/pop'
 import handleMyAge from './_scripts/myAge'
 import handleZoom from './_scripts/zoom'
+import Turbolinks from 'turbolinks'
 
+// app bootstrap
 function init () {
   handleScrolled()
   handleToggleMenu()
@@ -14,4 +16,10 @@ function init () {
   handleZoom()
 }
 
-document.addEventListener("DOMContentLoaded", init)
+// setup turbolinks
+Turbolinks.start()
+Turbolinks.setProgressBarDelay(200)
+
+// Start the app
+document.addEventListener("turbolinks:load", init)
+// document.addEventListener('DOMContentLoaded', init)
