@@ -2,32 +2,33 @@
   <%- partial('../../components/triangle', {color: 'gray-lighter'}) %>
 
   <div class="container">
-    <h1>Qui suis-je?</h1>
+    <div class="pop pop-right">
+      <h1>Qui suis-je?</h1>
 
-    <p>
-      Je suis <b>Benjamin Caradeuc</b>, ingénieur développeur web front-end.
-      J’ai <span class="my-age">28</span> ans et suis originaire de Rennes, je suis aujourd'hui basé à Montpellier.
-    </p>
+      <p>
+        Je suis <b>Benjamin Caradeuc</b>, ingénieur développeur web front-end.
+        J’ai <span class="my-age">28</span> ans et suis originaire de Rennes, je suis aujourd'hui basé à Montpellier.
+      </p>
 
-    <p>
-      Tout ce que je sais faire dans mon travail, c’est sur internet que je l’ai appris.
-      Il m’a semblé naturel d'en faire profiter à mon tour!
-    </p>
+      <p>
+        Tout ce que je sais faire dans mon travail, c’est sur internet que je l’ai appris.
+        Il m’a semblé naturel d'en faire profiter à mon tour!
+      </p>
 
-    <p>
-      Vous êtes donc ici sur mon site, il me permet de partager mes trouvailles, mes réalisations, mes conseils, mes réflexions...
-    </p>
+      <p>
+        Vous êtes donc ici sur mon site, il me permet de partager mes trouvailles, mes réalisations, mes conseils, mes réflexions...
+      </p>
 
-    <p>
-      N'hésitez pas à fouiner un peu pour trouver votre bonheur. Vous pouvez également
-      <%- link_to('/contact','me contacter') %>
-      ou me faire signe sur les réseaux sociaux.
-      Si vous recherchez quelqu'un pour un projet, ou que vous voulez en savoir plus sur mon parcours, ceci peut vous intéresser&nbsp;:
-    </p>
+      <p>
+        N'hésitez pas à fouiner un peu pour trouver votre bonheur. Vous pouvez également
+        <%- link_to('/contact','me contacter') %>
+        ou me faire signe sur les réseaux sociaux.
+        Si vous recherchez quelqu'un pour un projet, ou que vous voulez en savoir plus sur mon parcours, ceci peut vous intéresser&nbsp;:
+      </p>
 
-    <p class="text-center">
-      <%- link_to('/about', 'Mon CV', {class: 'btn bg-primary color-white'})%>
-    </p>
-
+      <p class="text-center">
+        <%- link_to('/about', 'Mon CV', {class: 'btn bg-primary color-white'})%>
+      </p>
+    </div>
   </div>
 </section>

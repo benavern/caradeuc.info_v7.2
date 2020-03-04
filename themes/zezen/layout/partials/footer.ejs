@@ -1,7 +1,7 @@
 <footer id="footer" class="has-triangle">
   <%- partial('../components/triangle', {color: 'gray-light'}) %>
 
-  <div class="container text-center">
+  <div class="container text-center pop pop-top">
     <p>
       <% site.data.social.socialItems.filter(s => !!s.url).forEach(social => { %>
         <a href="<%= social.url %>"
