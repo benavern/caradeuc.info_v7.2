@@ -60,6 +60,7 @@
   opacity: 0
   will-change: transform, opacity
   transition: transform .3s .3s, opacity .3s .3s
+  pointer-events: none
 
   &.pop-left
     transform: translate(-100%, 0)
@@ -76,6 +77,7 @@
   &.popped
     transform: translate(0, 0)
     opacity: 1
+    pointer-events: auto
 
 .margined
   margin: .5rem
