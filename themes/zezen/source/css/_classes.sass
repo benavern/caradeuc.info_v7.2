@@ -63,16 +63,16 @@
   pointer-events: none
 
   &.pop-left
-    transform: translate(-100%, 0)
+    transform: translate(-$pop-overflow, 0)
 
   &.pop-right
-    transform: translate(100%, 0)
+    transform: translate($pop-overflow, 0)
 
   &.pop-top
-    transform: translate(0, -100%)
+    transform: translate(0, -$pop-overflow)
 
   &.pop-bottom
-    transform: translate(0, 100%)
+    transform: translate(0, $pop-overflow)
 
   &.popped
     transform: translate(0, 0)
