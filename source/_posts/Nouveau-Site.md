@@ -1,14 +1,13 @@
 ---
 title: Nouveau site
 author: Benjamin Caradeuc
-date: 2018-08-29 20:00:52
+date: 2018-08-29T20:00:52.000Z
 tags:
   - website
   - news
 featured_image: /images/uploads/banner.jpg
 thumbnail: /images/uploads/banner.jpg
 ---
-
 > Salut tout le monde!
 
 Me revoilà après quelques mois d'absence. J'ai pris mon temps pour d'autres projets (de dev et autres) puis je me suis dit qu'il était temps de revenir.
@@ -27,7 +26,21 @@ Je suis aujourd'hui lead-développeur pour le projet WebTV d'orange. Nous sommes
 
 J'habite toujours à côté de Rennes, je fais toujours du vélo et du badminton. D'ailleurs si vous me suivez sur les réseaux, vous devez savoir que j'ai récemment acheté un vieux vélo de route et l'ai rénové.
 
-<details><summary>Vélo avant / après</summary><div class="grid"><div class="grid-item m-2"><div class="box">![mon nouveau vélo avant](/images/uploads/velo_avant.jpg)</div></div><div class="grid-item m-2"><div class="box">![mon nouveau vélo après](/images/uploads/velo_apres.jpg)</div></div></div></details>
+<details>
+  <summary>Vélo avant / après</summary>
+  <div class="grid">
+    <div class="grid-item m-2">
+      <div class="box">
+        <img src="/images/uploads/velo_avant.jpg" title="mon nouveau vélo avant">
+      </div>
+    </div>
+    <div class="grid-item m-2">
+      <div class="box">
+        <img src="/images/uploads/velo_apres.jpg" title="mon nouveau vélo après">
+      </div>
+    </div>
+  </div>
+</details>
 
 ## Mon nouveau site
 
