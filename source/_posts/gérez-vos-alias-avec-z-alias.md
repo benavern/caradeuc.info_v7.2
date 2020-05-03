@@ -10,6 +10,9 @@ tags:
 featured_image: /images/uploads/z-alias.png
 thumbnail: /images/uploads/z-alias.png
 ---
+*English version [HERE](https://dev.to/benavern/manage-your-aliases-with-z-alias-4oe)*
+---
+
 N'avez-vous jamais voulu utiliser la ligne de commande comme un pro, mais n'avez jamais été foutu de vous souvenir de cette commande dont vous avez tant besoin ?
 
 > Ça m'arrive tout le temps.
