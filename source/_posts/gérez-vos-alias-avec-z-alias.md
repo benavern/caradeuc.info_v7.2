@@ -28,7 +28,7 @@ Ne voulez-vous pas remplacer une commande existante avec une autre dont la sorti
 
 ---
 
-## Voici la solution
+## Voici la solution
 
 [https://github.com/benavern/z-alias](https://github.com/benavern/z-alias)
 
