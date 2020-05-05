@@ -89,7 +89,7 @@ Les options d'ajout, d'édition et de suppression prennent des paramètres optio
 
 ### Réglages
 
-Vous pouvez changer le chemin du fichier qui contient les alias en exportant la variable d'environnement `Z_ALIAS_PATH` dans votre `.bashrc`.
+Vous pouvez changer le chemin du fichier qui contient les alias en exportant la variable d'environnement `Z_ALIAS_FILE` dans votre `.bashrc`.
 
 
 Vous pouvez également le faire fonctionner avec Zsh et autres shells alternatifs en ajoutant ces lignes à la fin de votre `.zshrc` par exemple
