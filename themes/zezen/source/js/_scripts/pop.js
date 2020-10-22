@@ -2,50 +2,20 @@
  * Pop elements on the page
  */
 export default function () {
-  window.addEventListener('scroll', handlePop)
-  window.addEventListener('resize', handlePop)
-  handlePop()
-}
-
-function handlePop () {
-  // the elements to perform the pop action
   const popElements = [].slice.call(document.querySelectorAll('.pop'))
 
-  // the current window scroll
-  const currentScroll = window.scrollY
+  if ('IntersectionObserver' in window &&
+    'IntersectionObserverEntry' in window &&
+    'intersectionRatio' in window.IntersectionObserverEntry.prototype) {
 
-  // is the window scrolled to the bottom ?
-  const isScrolledToBottom = currentScroll >= document.body.scrollHeight - window.innerHeight
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        entry.target.classList.toggle('popped', entry.intersectionRatio > 0)
+      })
+    })
 
-  // the height where the elements shoold be popped
-  const popHeight = Math.max(window.innerHeight, currentScroll + (0.8 * window.innerHeight))
-
-  // go through all the elements found earlier and then ...
-  popElements.forEach((el, i) => {
-    // if element is above the limit or if the page is fully scrolled, apply the `popped` class
-    // otherwise, remove it.
-    if (isScrolledToBottom || getOffsetTop(el) < popHeight) {
-      el.classList.add('popped')
-    } else {
-      el.classList.remove('popped')
-    }
-  })
-}
-
-/**
- * Get the element distance from the top of the document by traversing the dom
- * @param {Element} el
- */
-function getOffsetTop(el) {
-  let offsetTop = 0
-  let node = el
-
-  while (node) {
-    if (!isNaN(node.offsetTop)) {
-			offsetTop += node.offsetTop
-		}
-		node = node.offsetParent
+    popElements.forEach(popElement => observer.observe(popElement))
+  } else {
+    popElements.forEach(element => element.classList.add('popped'))
   }
-
-  return offsetTop
 }
