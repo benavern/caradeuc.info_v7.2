@@ -3,7 +3,7 @@ title: hexo-renderer-babelify
 author: Benjamin Caradeuc
 date: 2019-08-20T20:27:52.233Z
 tags:
-  - open source
+  - open-source
   - hexo
   - cms
   - plugin
@@ -39,13 +39,13 @@ C'est là que j'ai décidé de développer un [plugin](https://hexo.io/plugins/)
 
 C'est un package npm sous forme de plugin qu'il suffit d'installer sur son projet hexo et après un minimum de configuration, on peut coder en JS tout ce que babel sait transformer. En prime, les imports et exports es6 sont possibles !
 
-Pour l'installer, rien de plus simple : 
+Pour l'installer, rien de plus simple :
 
 ```bash
 npm i hexo-renderer-babelify
 ```
 
-Question configuration, ça se passe dans le fichier `_config.yml` : 
+Question configuration, ça se passe dans le fichier `_config.yml` :
 
 ```yml
 babelify:

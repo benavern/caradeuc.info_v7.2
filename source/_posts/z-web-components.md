@@ -4,7 +4,7 @@ author: Benjamin Caradeuc
 date: 2020-04-26T13:59:18.734Z
 tags:
   - web-components
-  - js
+  - javascript
   - html
   - css
   - labo

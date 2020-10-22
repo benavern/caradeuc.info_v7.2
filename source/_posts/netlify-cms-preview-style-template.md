@@ -5,8 +5,6 @@ date: 2019-08-22T21:50:16.459Z
 tags:
   - netlify
   - cms
-  - style
-  - template
   - tips
 featured_image: /images/uploads/avant-apres-netlify-cms.jpg
 thumbnail: /images/uploads/capture-d’écran-de-2019-08-22-23-29-24.png
@@ -50,7 +48,7 @@ CMS.registerPreviewTemplate('posts', postPreviewTemplate)
 ```
 Elle permet de modifier la structure html en lui passant un template. Le CMS étant écrit en react, il faudra que ce template soit un composant react. Heureusement le CMS nous donne suffisamment d'outils pour ça:
 
-### `createClass` 
+### `createClass`
 
 Une fonction qui prend en paramètre un objet sous la forme d'un composant react. Cet objet doit comprendre une méthode `render` qui retournera la version react du template.
 
@@ -65,7 +63,7 @@ const entry = this.props.entry
 const title = entry.get([data, 'title'])
 
 ```
- 
+
 ###  `h`
 
 Ici, pas de  bundler très compliqué ou autres, impossible d'utiliser JSX. Il faut donc créer le template noeud par noeud avec la methode `h`qui prend au moins 2 paramètres:

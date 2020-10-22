@@ -4,7 +4,7 @@ date: 2015-06-24
 tags:
   - codepen
   - jade
-  - scss
+  - sass
   - social
   - button
 author: Benjamin Caradeuc

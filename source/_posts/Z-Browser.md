@@ -3,7 +3,7 @@ title: Z-Browser
 date: 2015-07-02
 tags:
   - css
-  - scss
+  - sass
   - html
   - jade
   - javascript

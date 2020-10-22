@@ -4,7 +4,7 @@ author: Benjamin Caradeuc
 date: 2019-07-08T20:49:13.077Z
 tags:
   - ma vie
-  - new
+  - news
 featured_image: /images/uploads/robin-garnier-wc07g25devc-unsplash-2000x1000.jpg
 thumbnail: /images/uploads/robin-garnier-wc07g25devc-unsplash-2000x1000.jpg
 ---
@@ -18,7 +18,7 @@ Franchement, même pour ceux d'ici, je ne suis pas sûr que [45°C](https://www.
 
 ## Oh, mais qu'est-ce qui t'a pris ?
 
-Me copine évidemment! Vous croyez que j'aurais fait ça de mon plein gré ? 
+Me copine évidemment! Vous croyez que j'aurais fait ça de mon plein gré ?
 
 Bon j'avoue c'est pas si horrible... Il fait beau, de beaux paysages, de nouveaux challenges mais ça on y reviendra plus tard.
 
@@ -30,7 +30,7 @@ Et puis un jour, en revenant du boulot, elle m’annonce non seulement qu'elle a
 
 > Exactement!
 
-Du coup à partir de là, évidemment, j'ai  démissionné. J'ai également demandé ma mutation dans une implantation à Montpellier mais après quelques échanges il s'est avéré qu'ils n'avaient rien pour moi. 
+Du coup à partir de là, évidemment, j'ai  démissionné. J'ai également demandé ma mutation dans une implantation à Montpellier mais après quelques échanges il s'est avéré qu'ils n'avaient rien pour moi.
 
 On doit donc déménager, trouver un appartement alors qu'on est pas sur place et moi je dois trouver un taf.
 
@@ -50,10 +50,10 @@ En parlant de tests techniques, j'ai choisi d'en faire un avec react et j'avoue 
 
 ## Et maintenant alors ?
 
-On attend ... 
+On attend ...
 
-Dès que je trouve un boulot, on se met à chercher un appartement, un vrai à nous, et on s'installe. On ne sait pas pour combien de temps, mais ce qui est sûr c'est qu'il va aussi falloir se refaire une vie sociale... 
+Dès que je trouve un boulot, on se met à chercher un appartement, un vrai à nous, et on s'installe. On ne sait pas pour combien de temps, mais ce qui est sûr c'est qu'il va aussi falloir se refaire une vie sociale...
 
-Alors si il y a des gens qui lisent ça et qui sont dans le coin n'hésitez pas à me faire un coucou sur twitter ou via le formulaire de contact et on ira pourquoi pas se [boire une bière](https://untappd.com/user/ZeZeN) ... 
+Alors si il y a des gens qui lisent ça et qui sont dans le coin n'hésitez pas à me faire un coucou sur twitter ou via le formulaire de contact et on ira pourquoi pas se [boire une bière](https://untappd.com/user/ZeZeN) ...
 
 En attendant, souhaitez moi bonne chance et je reviendrai bientôt avec de bonnes nouvelles et des projets plein la tête!

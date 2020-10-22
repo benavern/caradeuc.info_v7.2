@@ -3,7 +3,7 @@ title: Ma police préférée pour VsCode
 author: Benjamin Caradeuc
 date: 2019-02-03 23:10:42
 tags:
-  - astuce
+  - tips
   - vscode
   - outils
 featured_image: /images/uploads/capture.jpeg

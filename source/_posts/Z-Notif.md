@@ -9,7 +9,7 @@ tags:
   - vanillajs
   - notifications
   - OOP
-  - method chaining
+  - method-chaining
 author: Benjamin Caradeuc
 featured_image: https://benavern.github.io/z-notif/screenshot.jpg
 thumbnail: https://benavern.github.io/z-notif/screenshot.jpg

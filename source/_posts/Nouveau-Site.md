@@ -3,7 +3,7 @@ title: Nouveau site
 author: Benjamin Caradeuc
 date: 2018-08-29T20:00:52.000Z
 tags:
-  - website
+  - site
   - news
 featured_image: /images/uploads/banner.jpg
 thumbnail: /images/uploads/banner.jpg

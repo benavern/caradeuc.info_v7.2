@@ -4,11 +4,10 @@ author: Benjamin Caradeuc
 date: 2019-02-28T00:25:48.000Z
 tags:
   - jeu
-  - js
+  - javascript
   - es6
-  - classes
   - canvas
-  - html5
+  - html
 featured_image: /images/uploads/screenshot.png
 thumbnail: /images/uploads/screenshot.png
 ---
