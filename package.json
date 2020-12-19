@@ -3,7 +3,7 @@
   "version": "7.2.0",
   "private": true,
   "hexo": {
-    "version": "5.2.0"
+    "version": "5.3.0"
   },
   "scripts": {
     "dev": "hexo serve",
@@ -12,9 +12,9 @@
     "start": "npm run clean && npm run build && npx http-server -p 4000 public/"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
     "@pake/react-color": "^3.0.0",
-    "hexo": "^5.2.0",
+    "hexo": "^5.3.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
@@ -29,7 +29,7 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
     "medium-zoom": "^1.0.6",
-    "netlify-cms": "^2.10.64",
+    "netlify-cms": "^2.10.76",
     "netlify-cms-widget-color": "^3.0.1",
     "netlify-cms-widget-native-color": "^3.0.0",
     "normalize-scss": "^7.0.1",

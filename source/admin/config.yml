@@ -90,6 +90,15 @@ collections:
           - {label: "Template", name: "template", widget: "hidden", default: "404"}
           - {label: "Body", name: "body", widget: "markdown"}
 
+      - label: "Foodbouffe"
+        name: foodbouffe
+        file: "source/foodbouffe.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Featured Image", name: "featured_image", widget: "image"}
+          - {label: "Image", name: "thumbnail", widget: "image"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "data"
     label: "Data"
     editor:
