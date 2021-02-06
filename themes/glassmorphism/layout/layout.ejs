@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="<%= config.language %>">
+  <head>
+    <%- partial('partials/head') %>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <%- js('js/script') %>
+  </head>
+  <body>
+    <%- partial('partials/navigation') %>
+
+    <div class="content">
+      <%- body %>
+    </div>
+
+    <%- partial('partials/footer') %>
+
+    <%- partial('partials/ga') %>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

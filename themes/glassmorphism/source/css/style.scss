@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #123123;
+
+    &::before,
+    &::after {
+        content: '';
+        width: 20rem;
+        height: 20rem;
+        border-radius: 100rem;
+        position: fixed;
+        z-index: -1;
+    }
+    
+    &::before {
+        background: pink;
+        top: 5rem;
+        left: 2rem;
+    }
+
+    &::after {
+        background: cyan;
+        bottom: 2rem;
+        right: 5rem;
+    }
+
+    .content {
+        max-width: 600px;
+        margin: 2rem auto;
+        padding: 1rem;
+
+        color: rgba(white, .9);
+        background: rgba(white, .1);
+        background-image: linear-gradient(to bottom right, rgba(white, .1), transparent);
+        box-shadow: 0 0 1rem rgba(black, .3);
+
+        border: 2px solid rgba(white, .1);
+        border-radius: 1rem;
+        backdrop-filter: blur(15px);
+    }
+}
