@@ -1,7 +1,7 @@
 ---
 title: Foodbouffe
-featured_image: /images/uploads/photo-1484191914255-a429e6f819b4.jpeg
-thumbnail: /images/uploads/photo-1484191914255-a429e6f819b4.jpeg
+featured_image: /images/uploads/photo-1455619452474-d2be8b1e70cd.jpeg
+thumbnail: /images/uploads/photo-1455619452474-d2be8b1e70cd.jpeg
 ---
 # Application Foodbouffe
 
