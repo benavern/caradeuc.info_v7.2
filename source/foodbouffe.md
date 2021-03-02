@@ -1,14 +1,12 @@
 ---
 title: Foodbouffe
-featured_image: /images/uploads/photo-1484191914255-a429e6f819b4.jpeg
-thumbnail: /images/uploads/photo-1484191914255-a429e6f819b4.jpeg
+featured_image: /images/uploads/photo-1455619452474-d2be8b1e70cd.jpeg
+thumbnail: /images/uploads/photo-1455619452474-d2be8b1e70cd.jpeg
 ---
 # Application Foodbouffe
 
-Cette page n'a pas d'autre but que de télécharger l'application foodbouffe.
+[Télécharger l'application](https://firebasestorage.googleapis.com/v0/b/foodbouffe-c43d0.appspot.com/o/app%2FFoodBouffe-0.0.1.apk?alt=media)
 
-[Télécharger](https://firebasestorage.googleapis.com/v0/b/foodbouffe-c43d0.appspot.com/o/app%2FfoodBouffe.zip?alt=media)
+## Attention!
 
-## Attention
-
-Si je ne vous ai pas autorisé à l'utiliser, aucun intérêt pour vous de la télécharger. Il vous faudra un compte sur l'application.
+Si vous n'avez pas de compte sur l'application (je valide manuellement), aucun intérêt de la télécharger, vous ne verrez qu'une page de connexion.
