@@ -1,0 +1,20 @@
+body
+  .page-transition
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: var(--white)
+    z-index: 300
+    pointer-events: none
+    opacity: 0
+    transition-property: opacity
+    transition-duration: .8s
+
+  &.hidden .page-transition
+    pointer-events: all
+    opacity: 1
+
+  a[href^="/"] *
+    pointer-events: none

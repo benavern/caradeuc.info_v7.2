@@ -4,6 +4,7 @@ import handleSmoothScroll from './_scripts/smoothScroll'
 import handlePop from './_scripts/pop'
 import handleMyAge from './_scripts/myAge'
 import handleZoom from './_scripts/zoom'
+import handlePageTransitions from './_scripts/pageTransitions'
 import Turbolinks from 'turbolinks'
 
 // app bootstrap
@@ -14,6 +15,7 @@ function init () {
   handlePop()
   handleMyAge()
   handleZoom()
+  handlePageTransitions()
 }
 
 // setup turbolinks
