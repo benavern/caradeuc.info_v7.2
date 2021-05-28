@@ -1,5 +1,41 @@
 timelines:
   - items:
+      - name: Ingénieur Développeur SmartTV
+        period: Février 2020 - Aujourd'hui
+        establishment: MolotovTV (Idean - Klanik)
+        location: Montpellier (34)
+        description: >-
+          Service français de distribution de chaînes de télévision.
+
+
+          * Développement front
+
+          * Performances, optimisation mémoire / CPU, innovation
+
+          * Relations avec clients étrangers et constructeurs importants de smartTVs (échanges en anglais avec Allemagne, Chine, Corée, Inde, Russie, ...)
+
+          * Organisation en squads
+
+          * Mise en place de CI / CD (Github actions)
+
+          * Migration cloud (AWS)
+
+          * tests Unitaires & end 2 end (Jest & Cypress)
+        tags:
+          - name: HTML5
+            color: orange
+          - name: CSS3
+            color: blue
+          - name: Javascript
+            color: yellow
+          - name: VueJs
+            color: green
+          - name: AWS
+            color: orange
+          - name: storybook
+            color: violet
+          - name: cypress
+            color: green
       - description: |-
           Plateforme sécurisée d’échanges pour la télé-expertise
 
@@ -10,7 +46,7 @@ timelines:
         establishment: Rofim (KLANIK)
         location: Montpellier (34)
         name: Ingénieur Développeur Web Fullstack
-        period: '[Juillet 2019 - Janvier 2020]'
+        period: "[Juillet 2019 - Janvier 2020]"
         tags:
           - color: orange
             name: HTML5
@@ -32,7 +68,7 @@ timelines:
         establishment: ORANGE WebTV (SII)
         location: Rennes (35)
         name: Ingénieur (Lead) Développeur Web
-        period: '[Octobre 2016 - Juin 2019]'
+        period: "[Octobre 2016 - Juin 2019]"
         tags:
           - color: orange
             name: HTML5
@@ -48,7 +84,7 @@ timelines:
         establishment: La boutonnière (SII)
         location: Rennes (35)
         name: Ingénieur Développeur Web
-        period: '[Février 2017 - Mars 2017]'
+        period: "[Février 2017 - Mars 2017]"
         tags:
           - color: orange
             name: HTML5
@@ -58,14 +94,13 @@ timelines:
             name: Javascript
           - color: red
             name: WebGL
-      - description: >-
-          Maintenance d'une application mobile hybride pour le compte d'un
+      - description: Maintenance d'une application mobile hybride pour le compte d'un
           opérateur téléphonique péruvien, en collaboration avec des
           développeurs étrangers (Pérou, Inde, USA, Israël)
         establishment: AMDocs (SII)
         location: Rennes (35)
         name: Ingénieur Développeur Web
-        period: '[Novembre 2016 - Février 2017]'
+        period: "[Novembre 2016 - Février 2017]"
         tags:
           - color: orange
             name: HTML5
@@ -77,14 +112,13 @@ timelines:
             name: AngularJs 1.5
           - color: violet
             name: Anglais professionnel
-      - description: >-
-          Alternance pendant ma formation de Master 2 "Chef de projet numérque"
-          à l'IMIE de Rennes. Maintenance de code et conception de nouvelles
-          fonctionnalités pour les produits de Dolmen Technologies.
+      - description: Alternance pendant ma formation de Master 2 "Chef de projet
+          numérque" à l'IMIE de Rennes. Maintenance de code et conception de
+          nouvelles fonctionnalités pour les produits de Dolmen Technologies.
         establishment: Dolmen Technologies
         location: Rennes (35)
         name: Développeur Web (Alternance)
-        period: '[Septembre 2015 - Septembre 2016]'
+        period: "[Septembre 2015 - Septembre 2016]"
         tags:
           - color: orange
             name: HTML5
@@ -98,14 +132,13 @@ timelines:
             name: PHP 5
           - color: blue
             name: Drupal 7
-      - description: >-
-          Développement d’une interface graphique complexe et dynamique en HTML5
-          pour remplacement des interfaces existantes développées en FLASH.
-          (Proof of concept)
+      - description: Développement d’une interface graphique complexe et dynamique en
+          HTML5 pour remplacement des interfaces existantes développées en
+          FLASH. (Proof of concept)
         establishment: ENENSYS Technologies
         location: Rennes (35)
         name: Développeur Web (Stagiaire)
-        period: '[Avril 2014 - Août 2014]'
+        period: "[Avril 2014 - Août 2014]"
         tags:
           - color: orange
             name: HTML5
@@ -121,7 +154,7 @@ timelines:
         establishment: IMIE
         location: Rennes (35)
         name: Master 2 Chef de projet en conception de systèmes informatiques
-        period: '[Septembre 2015 - Septembre 2016]'
+        period: "[Septembre 2015 - Septembre 2016]"
         tags:
           - color: blue
             name: Développement
@@ -129,13 +162,12 @@ timelines:
             name: Management
           - color: orange
             name: Systèmes & réseaux
-      - description: >-
-          Orientation personnelle vers l'informatique après 2 modules
+      - description: Orientation personnelle vers l'informatique après 2 modules
           Informatiques à l'école.
         establishment: ENIB
         location: Brest (29)
         name: Diplôme d'ingénieur généraliste
-        period: '[Septembre 2008 - Juin 2014]'
+        period: "[Septembre 2008 - Juin 2014]"
         tags:
           - color: orange
             name: Informatique
@@ -143,13 +175,12 @@ timelines:
             name: Électronique
           - color: yellow
             name: Mécatronique
-      - description: >-
-          Baccalauréat Sciences et Technologies Industrielles génie
+      - description: Baccalauréat Sciences et Technologies Industrielles génie
           Électrotechnique. **Mention Bien**
         establishment: Lycée Brequigny
         location: Rennes (35)
         name: Baccalauréat STI Génie Électrotechnique
-        period: '[Septembre 2005 - Juin 2009]'
+        period: "[Septembre 2005 - Juin 2009]"
         tags:
           - color: red
             name: Informatique industrielle
