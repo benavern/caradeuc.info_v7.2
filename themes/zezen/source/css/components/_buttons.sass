@@ -26,28 +26,13 @@ a.btn
     font-size: .6em
 
   &.btn-border
-    -webkit-background-clip: text
-    -webkit-text-fill-color: transparent
-    border: 1px solid $primary
-    border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%2316a085'/><stop offset='1' stop-color='%232980b9'/></linearGradient></defs><g><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch
+    border: 2px solid transparent
+    background: linear-gradient(var(--white), var(--white)) padding-box, $primary-gradient border-box
     box-shadow: none
 
     &:hover
-      box-shadow: none
-      background-color: $primary
+      background: $primary-gradient border-box
       color: $white
-      -webkit-background-clip: initial
-      -webkit-text-fill-color: initial
-
-    // @each $color-key, $color-val in $colors
-
-    //   &.border-#{$color-key}
-    //     border: 1px solid $color-val
-    //     fill: $color-val
-
-    //     &:hover
-    //       background-color: $color-val
-    //       fill: $white
 
   &.icon-left,
   &.icon-right
