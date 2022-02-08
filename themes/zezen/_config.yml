@@ -1,4 +1,4 @@
-node_sass:
+sass:
   outputStyle: compressed
   precision: 5
   sourceComments: false

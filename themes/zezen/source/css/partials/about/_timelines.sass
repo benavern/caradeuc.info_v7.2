@@ -1,3 +1,5 @@
+@use "sass:math"
+
 $timeline-line-width: .25rem
 $timeline-dot-width: 2rem
 
@@ -25,7 +27,7 @@ $timeline-dot-width: 2rem
           background-color: var(--black)
 
           @media (min-width: $medium)
-            left: calc(50% - #{$timeline-line-width/2})
+            left: calc(50% - #{math.div($timeline-line-width, 2)})
 
       &__item
         position: relative
@@ -36,7 +38,7 @@ $timeline-dot-width: 2rem
           content: ''
           position: absolute
           top: 2rem
-          left: calc(-4rem + #{$timeline-line-width/2})
+          left: calc(-4rem + #{math.div($timeline-line-width, 2)})
           height: $timeline-dot-width
           width: $timeline-dot-width
           border-radius: 50%

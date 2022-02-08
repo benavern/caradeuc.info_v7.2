@@ -1,7 +1,9 @@
+@use "sass:math"
+
 .grid
   display: flex
   flex-wrap: wrap
-  margin: -#{$gutter / 2}
+  margin: -#{math.div($gutter, 2)}
   align-items: stretch
 
   .grid-item
@@ -15,10 +17,10 @@
         @for $i from 0 through 12
           @if $i > 0
             &.#{nth($breakpoint, 1)}-#{$i}
-              width: #{100% / $i}
+              width: #{math.div(100%, $i)}
 
             &.push-#{nth($breakpoint, 1)}-#{$i}
-              margin-left: #{100% / $i}
+              margin-left: #{math.div(100%, $i)}
 
           @else
             &.push-#{nth($breakpoint, 1)}-#{$i}
@@ -32,12 +34,12 @@
         @for $i from 1 through 12
           @for $j from 1 through $i
             &.#{nth($breakpoint, 1)}-#{$j}-#{$i}
-              width: #{$j * 100% / $i}
+              width: #{math.div($j * 100%, $i)}
 
             &.push-#{nth($breakpoint, 1)}-#{$j}-#{$i}
-              margin-left: #{$j * 100% / $i}
+              margin-left: #{math.div($j * 100%, $i)}
 
     .box
-      margin: #{$gutter / 2}
+      margin: #{math.div($gutter, 2)}
       padding: $gutter
       display: block
