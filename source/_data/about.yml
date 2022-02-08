@@ -4,18 +4,29 @@ timelines:
         period: Septembre 2021 - Aujourd'hui
         establishment: Additi (Ouestfrance)
         location: Rennes (35)
-        description: |+
-          Ouestfrance-immo.com, bellespierres.fr
+        description: >+
+          [Ouestfrance Immo](https://ouestfrance-immo.com), [Belles
+          Pierres](https://bellespierres.fr)
+
 
           * Développeur web fullStack Vuejs + Laravel + MySQL / PosgreSQL
+
           * Maintenance et développement de nouvelles fonctionnalités
+
           * Service après vente ponctuel
+
           * Migration depuis Zend
+
           * Refonte totale du site bellespierres.fr
+
           * CI/CD GitlabCI / Jenkins
+
           * Docker / Kubernetes
+
           * GCP
+
           * Tests cypress
+
           * introduction de l'équipe à storybook
 
         tags:
