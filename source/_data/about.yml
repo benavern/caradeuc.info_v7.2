@@ -1,7 +1,44 @@
 timelines:
   - items:
+      - name: Responsable projet informatique
+        period: Septembre 2021 - Aujourd'hui
+        establishment: Additi (Ouestfrance)
+        location: Rennes (35)
+        description: |+
+          Ouestfrance-immo.com, bellespierres.fr
+
+          * Développeur web fullStack Vuejs + Laravel + MySQL / PosgreSQL
+          * Maintenance et développement de nouvelles fonctionnalités
+          * Service après vente ponctuel
+          * Migration depuis Zend
+          * Refonte totale du site bellespierres.fr
+          * CI/CD GitlabCI / Jenkins
+          * Docker / Kubernetes
+          * GCP
+          * Tests cypress
+          * introduction de l'équipe à storybook
+
+        tags:
+          - name: html5
+            color: orange
+          - name: css3
+            color: blue
+          - name: Javascript
+            color: yellow
+          - name: vuejs
+            color: green
+          - name: Laravel
+            color: red
+          - name: docker
+            color: blue
+          - name: kubernetes
+            color: blue
+          - name: storybook
+            color: violet
+          - name: GCP
+            color: red
       - name: Ingénieur Développeur
-        period: Février 2020 - Aujourd'hui
+        period: Février 2020 - Août 2021
         establishment: MolotovTV (Idean - Klanik)
         location: Montpellier (34)
         description: >-
