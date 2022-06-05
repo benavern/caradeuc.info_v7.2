@@ -13,11 +13,9 @@ timelines:
 
           * Maintenance et développement de nouvelles fonctionnalités
 
-          * Service après vente ponctuel
+          * Migration depuis Zend framework
 
-          * Migration depuis Zend
-
-          * Refonte totale du site bellespierres.fr
+          * Refonte totale du site [bellespierres.com](https://bellespierres.com)
 
           * CI/CD GitlabCI / Jenkins
 
@@ -27,7 +25,7 @@ timelines:
 
           * Tests cypress
 
-          * introduction de l'équipe à storybook
+          * Introduction de l'équipe à Storybook
 
         tags:
           - name: html5
