@@ -85,7 +85,7 @@ export default (name) => {
 En fait il y a 2 choses, et elles sont listées dans l'image là haut:
 
 * **[browserify](http://browserify.org/)** : Un outil capable de gérer les `require` et `module.exports` et de créer un bundle final.
-* **[babel](babeljs.io)** : Utilisé ici via [babelify](https://www.npmjs.com/package/babelify) qui transforme l'es6 en es5. Il traduit également les `import` en `require`, les `export default` en `module.exports`, et les `export` en `exports`...
+* **[babel](https://babeljs.io)** : Utilisé ici via [babelify](https://www.npmjs.com/package/babelify) qui transforme l'es6 en es5. Il traduit également les `import` en `require`, les `export default` en `module.exports`, et les `export` en `exports`...
 
 ## Bravo, et maintenant ?
 
