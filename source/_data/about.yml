@@ -5,17 +5,20 @@ timelines:
         establishment: Additi (Ouestfrance)
         location: Rennes (35)
         description: >+
-          [Ouestfrance Immo](https://ouestfrance-immo.com), [Belles
-          Pierres](https://bellespierres.com)
+          [Ouestfrance Immo](https://www.ouestfrance-immo.com), [BellesPierres](https://www.bellespierres.com/), [CessionPME](https://www.cessionpme.com/)
 
 
-          * Développeur web fullStack Vuejs + Laravel + MySQL / PosgreSQL
+          * Développeur web fullStack Vuejs (2 / 3) / svelte(kit) + Laravel + MySQL / PosgreSQL
 
           * Maintenance et développement de nouvelles fonctionnalités
 
-          * Migration depuis Zend framework
+          * Refonte totale du site [BellesPierres](https://www.bellespierres.com/)
 
-          * Refonte totale du site [bellespierres.com](https://bellespierres.com)
+          * Refonte des pages principales du site [Ouestfrance Immo](https://www.ouestfrance-immo.com)
+
+          * Refonte de l'espace "mon-compte" du site [CessionPME](https://www.cessionpme.com/)
+
+          * Création d'outils utils à l'équipe (extension navigateur / interface d'administration marketing & SEO / ...)
 
           * CI/CD GitlabCI / Jenkins
 
@@ -23,7 +26,7 @@ timelines:
 
           * GCP
 
-          * Tests cypress
+          * Tests cypress / Jest
 
           * Introduction de l'équipe à Storybook
 
@@ -34,7 +37,9 @@ timelines:
             color: blue
           - name: Javascript
             color: yellow
-          - name: vuejs
+          - name: Typescript
+            color: blue
+          - name: vuejs (2 & 3)
             color: green
           - name: Laravel
             color: red
