@@ -8,7 +8,7 @@ timelines:
           [Ouestfrance Immo](https://www.ouestfrance-immo.com), [BellesPierres](https://www.bellespierres.com/), [CessionPME](https://www.cessionpme.com/)
 
 
-          * Développeur web fullStack Vuejs (2 / 3) / svelte(kit) + Laravel + MySQL / PosgreSQL
+          * Développeur web fullStack Vuejs (2 / 3) (svelte(kit) - lit-element) + Laravel + MySQL / PosgreSQL
 
           * Maintenance et développement de nouvelles fonctionnalités
 
@@ -41,6 +41,8 @@ timelines:
             color: blue
           - name: vuejs (2 & 3)
             color: green
+          - name: web-components (lit-element)
+            color: blue
           - name: Laravel
             color: red
           - name: docker
